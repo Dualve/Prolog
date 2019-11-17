@@ -1,0 +1,1970 @@
+ PDC Linker 50.35 20000313.10.LINK55.
+  Module 'Exe\Labus.exe' Map. Thu Sep 26 12:39:29 2019
+
+Frame 010000   Size 0040D0.  Name=<   .data>, 	Chars=C0000040h. [IRW]
+Frame 020000   Size 000690.  Name=<  .rdata>, 	Chars=40000040h. [IR]
+Frame 030000   Size 018760.  Name=<   .text>, 	Chars=60000020h. [CER]
+Frame 050000   Size 000860.  Name=<    .bss>, 	Chars=C0000080h. [URW]
+
+	--- S e g m e n t s : ---
+
+Frame 010000   Size 0040D0.  Name=<   .data>, 	Chars=C0000040h. [IRW]
+010000:000000 00170C   .bss::BSS::DGROUP F=4
+   010000   Module 'D:\VIP\Vpi\Lib\Win32\MSC\Init32.obj'
+   010000   Module 'D:\VIP\Lib\Win32\MSC\Easywin.obj'
+   0100B0   Module 'runbtrak.obj'
+   0100B0   Module 'runinit.obj'
+   0100B4   Module 'memsidi.obj'
+   0100B8   Module 'conv_si.obj'
+   0100D0   Module 'scanint.obj'
+   0100D4   Module 'iowritef.obj'
+   0100F8   Module 'conv_ls.obj'
+   010108   Module 'pfpbindc.obj'
+   01010C   Module 'rununify.obj'
+   01010C   Module 'rntconv.obj'
+   010150   Module 'erracces.obj'
+   011698   Module 'pfpmath.obj'
+   011698   Module 'dbmain.obj'
+   0116A0   Module 'rntsynch.obj'
+   0116F0   Module 'hashfns.obj'
+   011704   Module 'rntcfci.obj'
+   011704   Module 'obj\i386\resolve.obj'
+010000:001710 002998   .data::DATA::DGROUP F=4
+   011710   Module 'D:\VIP\Vpi\Lib\Win32\MSC\Init32.obj'
+   011768   Module 'D:\VIP\Lib\Win32\MSC\Easywin.obj'
+   0117D0   Module 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\core.obj'
+   011AE0   Module 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\exceptionDump.obj'
+   011B90   Module 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\exception.obj'
+   011EE0   Module 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\labus.obj'
+   011F70   Module 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\Goal.obj'
+   0124B0   Module 'Obj\Labus.sym'
+   012DD0   Module 'iomin.obj'
+   012DF8   Module 'memheapn.obj'
+   012E40   Module 'runflags.obj'
+   012E4C   Module 'runbtrak.obj'
+   012F68   Module 'convpred.obj'
+   012F70   Module 'runinit.obj'
+   013148   Module 'osinit.obj'
+   01314C   Module 'memsidi.obj'
+   01314C   Module 'iowreal.obj'
+   013150   Module 'iowbin.obj'
+   013154   Module 'rntwrite.obj'
+   013174   Module 'errlast.obj'
+   01317C   Module 'rntassz.obj'
+   013184   Module 'errrep1.obj'
+   013200   Module 'iobuff.obj'
+   013208   Module 'mem_prof.obj'
+   01334C   Module 'errinit.obj'
+   01337C   Module 'errfatal.obj'
+   0133D0   Module 'conv_si.obj'
+   0133E0   Module 'chinit.obj'
+   0139E0   Module 'iowritef.obj'
+   013A20   Module 'scanreal.obj'
+   013A28   Module 'osabort.obj'
+   013AA8   Module 'hashinit.obj'
+   013AB0   Module 'dbmin.obj'
+   013AC0   Module 'rntinit.obj'
+   013AE0   Module 'pfpbindc.obj'
+   013C28   Module 'rnthread.obj'
+   013C30   Module 'runexcpt.obj'
+   013CF8   Module 'rununify.obj'
+   013D00   Module 'convdata.obj'
+   013D18   Module 'iowref.obj'
+   013D24   Module 'fnmfns.obj'
+   013D30   Module 'fnmuniq.obj'
+   013D38   Module 'erracces.obj'
+   013E70   Module 'errputms.obj'
+   013E80   Module 'errsys.obj'
+   013E88   Module 'memobj.obj'
+   013F84   Module 'conv_fs.obj'
+   013FA4   Module 'pfpmath.obj'
+   013FB0   Module 'dbmain.obj'
+   013FB4   Module 'emmend.obj'
+   013FC0   Module 'rntcfact.obj'
+   013FE0   Module 'osgdir.obj'
+   013FE4   Module 'osgenvs.obj'
+   013FE8   Module 'osfmatch.obj'
+   014010   Module 'rntcfci.obj'
+   014010   Module 'obj\i386\resolve.obj'
+010000:0040A8 000004   .data$_kernel32_GetProcAddress::DATA::DGROUP F=4
+   0140A8   Module 'obj\i386\thunk_kernel32_GetProcAddress.obj'
+010000:0040AC 000004   .data$_user32_CallWindowProcA::DATA::DGROUP F=4
+   0140AC   Module 'obj\i386\thunk_user32_CallWindowProcA.obj'
+010000:0040B0 000004   .data$_user32_GetWindowLongA::DATA::DGROUP F=4
+   0140B0   Module 'obj\i386\thunk_user32_GetWindowLongA.obj'
+010000:0040B4 000004   .data$_user32_SetWindowLongA::DATA::DGROUP F=4
+   0140B4   Module 'obj\i386\thunk_user32_SetWindowLongA.obj'
+010000:0040C0 000010   PROMODE::DATA::DGROUP F=4
+   0140C0   Module 'D:\VIP\Vpi\Lib\Win32\MSC\Init32.obj'
+
+Frame 020000   Size 000690.  Name=<  .rdata>, 	Chars=40000040h. [IR]
+020000:000000 000690   .rdata::.rdata::.rdata F=4
+   020000   Module 'D:\VIP\Vpi\Lib\Win32\MSC\Init32.obj'
+   020000   Module 'runbtrak.obj'
+   020000   Module 'memsidi.obj'
+   020000   Module 'mem_prof.obj'
+   020028   Module 'scanreal.obj'
+   020060   Module 'rntinit.obj'
+   020068   Module 'pfpbindc.obj'
+   0200E0   Module 'rununify.obj'
+   0200E0   Module 'rntconv.obj'
+   0200F8   Module 'conv_fs.obj'
+   020238   Module 'pfpmath.obj'
+   020238   Module 'rntcfci.obj'
+   020238   Module 'obj\i386\thunk_user32_CallWindowProcA.obj'
+   020254   Module 'obj\i386\thunk_user32_SetWindowLongA.obj'
+   020270   Module 'obj\i386\thunk_user32_GetWindowLongA.obj'
+   02028C   Module 'obj\i386\thunk_kernel32_GetProcAddress.obj'
+   0202AC   Module 'obj\i386\resolve.obj'
+   020438   Module 'obj\i386\failure.obj'
+
+Frame 030000   Size 018760.  Name=<   .text>, 	Chars=60000020h. [CER]
+030000:000000 017DB4   .text::CODE::<no group> F=4
+   030000   Module 'D:\VIP\Vpi\Lib\Win32\MSC\Init32.obj'
+   0300A0   Module 'D:\VIP\Lib\Win32\MSC\Easywin.obj'
+   030B60   Module 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\core.obj'
+   030B90   Module 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\exceptionDump.obj'
+   0314C0   Module 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\exception.obj'
+   032580   Module 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\labus.obj'
+   0325C0   Module 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\Goal.obj'
+   032610   Module 'Obj\Labus.sym'
+   032610   Module 'iogetln.obj'
+   0327D0   Module 'strcat0.obj'
+   032800   Module 'memgstk.obj'
+   032BF0   Module 'memsetc.obj'
+   032C50   Module 'iomin.obj'
+   032CD0   Module 'memheapn.obj'
+   033D20   Module 'brksimp.obj'
+   033D60   Module 'runflags.obj'
+   033DB0   Module 'memmov.obj'
+   033E80   Module 'convpred.obj'
+   034810   Module 'ioin.obj'
+   034980   Module 'runinit.obj'
+   0353B0   Module 'strcat.obj'
+   0353F0   Module 'runerr.obj'
+   035530   Module 'osinit.obj'
+   035560   Module 'ioout.obj'
+   035750   Module 'ionl.obj'
+   035790   Module 'osdate1.obj'
+   035800   Module 'ostime1.obj'
+   035860   Module 'iowintg.obj'
+   035910   Module 'iowlong.obj'
+   035950   Module 'iowreal.obj'
+   035970   Module 'iowbin.obj'
+   035A00   Module 'rntwrite.obj'
+   036050   Module 'runexit1.obj'
+   036090   Module 'rntcpyg1.obj'
+   0360B0   Module 'rntcpyg4.obj'
+   036420   Module 'rntretr6.obj'
+   036460   Module 'rntretr2.obj'
+   036520   Module 'rntasszs.obj'
+   0367B0   Module 'errlast.obj'
+   036870   Module 'rntassa.obj'
+   036AA0   Module 'ossysp.obj'
+   036B10   Module 'fnmpred.obj'
+   036D50   Module 'errmsg.obj'
+   036D80   Module 'rntassz.obj'
+   0372A0   Module 'errrep1.obj'
+   037400   Module 'memadjst.obj'
+   037450   Module 'iobuff.obj'
+   037500   Module 'ioflush.obj'
+   0375F0   Module 'meminit.obj'
+   037690   Module 'ioinit.obj'
+   0379A0   Module 'memsetc0.obj'
+   0379F0   Module 'mem_prof.obj'
+   038700   Module 'errinit.obj'
+   038970   Module 'errfatal.obj'
+   038AD0   Module 'memsave.obj'
+   038C10   Module 'conv_si.obj'
+   038D20   Module 'scanint.obj'
+   0390C0   Module 'chinit.obj'
+   039310   Module 'iowritef.obj'
+   03AA30   Module 'scanreal.obj'
+   03B050   Module 'scanref.obj'
+   03B160   Module 'conv_ls.obj'
+   03B1E0   Module 'strcmp.obj'
+   03B210   Module 'osrdbin.obj'
+   03B2C0   Module 'convbntx.obj'
+   03B340   Module 'osabort.obj'
+   03B790   Module 'hashinit.obj'
+   03B7C0   Module 'dbmin.obj'
+   03B960   Module 'rntinit.obj'
+   03BA70   Module 'pfpbindc.obj'
+   03C940   Module 'rnthread.obj'
+   03CA40   Module 'runexcpt.obj'
+   03D0D0   Module 'strcat0m.obj'
+   03D140   Module 'errsave.obj'
+   03D170   Module 'oswrbin.obj'
+   03D1E0   Module 'oswrtext.obj'
+   03D280   Module 'iowref.obj'
+   03D2E0   Module 'iowreltc.obj'
+   03D300   Module 'rntcpyg2.obj'
+   03D3B0   Module 'memcopyg.obj'
+   03D3F0   Module 'memcopyh.obj'
+   03D430   Module 'rntconv.obj'
+   03E530   Module 'fnmfns.obj'
+   03F260   Module 'fnmuniq.obj'
+   03F330   Module 'erracces.obj'
+   040580   Module 'errputms.obj'
+   040650   Module 'errsys.obj'
+   040760   Module 'osflush.obj'
+   0407A0   Module 'memobj.obj'
+   040CE0   Module 'ioclose.obj'
+   040EE0   Module 'osexist.obj'
+   040FA0   Module 'memreall.obj'
+   040FF0   Module 'conv_fs.obj'
+   041D40   Module 'conv_bs.obj'
+   041F80   Module 'strupper.obj'
+   041FC0   Module 'dbmain.obj'
+   0434B0   Module 'emmend.obj'
+   0434E0   Module 'osclose.obj'
+   043520   Module 'osflock.obj'
+   0435F0   Module 'rntsynch.obj'
+   043650   Module 'rntcfact.obj'
+   043A60   Module 'osthread.obj'
+   043B70   Module 'rntcpyg3.obj'
+   043BC0   Module 'memgsptr.obj'
+   043C10   Module 'convtxbn.obj'
+   043CC0   Module 'rntfixup.obj'
+   043D10   Module 'iogpath.obj'
+   043DB0   Module 'osgdisk.obj'
+   043E00   Module 'osgdir.obj'
+   043FB0   Module 'fnmuniqs.obj'
+   044060   Module 'osrdtext.obj'
+   0440A0   Module 'osseek.obj'
+   0440F0   Module 'osopen.obj'
+   044340   Module 'strcatm.obj'
+   0443E0   Module 'osseekrd.obj'
+   044450   Module 'strcmpi.obj'
+   044500   Module 'fnmsrch.obj'
+   044780   Module 'osgenvs.obj'
+   0447E0   Module 'osfmatch.obj'
+   045030   Module 'emmalloc.obj'
+   045190   Module 'emmsel.obj'
+   0451C0   Module 'osseekwr.obj'
+   045230   Module 'memdynar.obj'
+   045320   Module 'hashfns.obj'
+   045690   Module 'emminit.obj'
+   0456B0   Module 'strncmp.obj'
+   0456F0   Module 'strucat.obj'
+   045770   Module 'strsstr.obj'
+   045930   Module 'strlower.obj'
+   045970   Module 'memdynsp.obj'
+   045A60   Module 'obj\i386\alias_user32_CallWindowProcA.obj'
+   045A60   Module 'obj\i386\alias_user32_SetWindowLongA.obj'
+   045A60   Module 'obj\i386\alias_user32_GetWindowLongA.obj'
+   045A60   Module 'obj\i386\alias_kernel32_GetProcAddress.obj'
+   045A60   Module 'obj\i386\thunk_user32_CallWindowProcA.obj'
+   045A8B   Module 'obj\i386\thunk_user32_SetWindowLongA.obj'
+   045AB6   Module 'obj\i386\thunk_user32_GetWindowLongA.obj'
+   045AE1   Module 'obj\i386\thunk_kernel32_GetProcAddress.obj'
+   045B0C   Module 'obj\i386\resolve.obj'
+   04613A   Module 'obj\i386\failure.obj'
+030000:017DB4 0002EC   RUNUNIFY_TEXT::CODE::<no group> F=4
+   047DB4   Module 'rununify.obj'
+030000:0180A0 0001F4   PFPMATH_TEXT::CODE::<no group> F=4
+   0480A0   Module 'pfpmath.obj'
+030000:018294 000008   RNTCFCI_TEXT::CODE::<no group> F=4
+   048294   Module 'rntcfci.obj'
+030000:01829C 000018   STRSTRLEN_TEXT::CODE::<no group> F=4
+   04829C   Module 'strlen.obj'
+030000:0182B4 000378   RUNBTRAK_TEXT::CODE::<no group> F=4
+   0482B4   Module 'runbtrak.obj'
+030000:01862C 000008   RUNSTK_TEXT::CODE::<no group> F=4
+   04862C   Module 'runstk.obj'
+030000:018634 000124   MEMSIDI_TEXT::CODE::<no group> F=4
+   048634   Module 'memsidi.obj'
+
+Frame 050000   Size 000860.  Name=<    .bss>, 	Chars=C0000080h. [URW]
+050000:000000 000858   *** Comm1 ***::BSS::<no group> F=0
+
+	     ------- Names by value Map ---------
+Frame 010000   Size 0040D0.  Name=<   .data>, 	Chars=C0000040h. [IRW]
+010000:000000 00170C   .bss::BSS::DGROUP F=4
+010000:001710 002998   .data::DATA::DGROUP F=4
+--- From 'conv_fs.obj'
+01:00011712 __fltused  (Idle)
+--- From 'rntcfact.obj'
+01:00011762 _INIT_StartOfData 
+--- From 'D:\VIP\Lib\Win32\MSC\Easywin.obj'
+01:00011763 _PROLOG_ModTab 
+--- From 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\core.obj'
+01:000117D0 core$DESCR  (Idle)
+01:00011800 $global$dom$core 
+01:00011818 $global$dom$core$booleanint  (Idle)
+01:00011830 $global$dom$core$pointer 
+01:00011848 $global$dom$core$value 
+01:00011860 $global$dom$core$record 
+01:00011878 $global$dom$core$record_list 
+01:00011890 $global$dom$core$record_list_list 
+01:000118A8 $global$dom$core$integer_list 
+01:000118C0 $global$dom$core$string_list 
+01:000118D8 $global$dom$core$namedvalue 
+--- From 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\exception.obj'
+01:000118F0 $global$dom$core$namedvalue_list 
+--- From 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\exceptionDump.obj'
+01:00011AE0 exceptiondump$DESCR  (Idle)
+01:00011B10 $global$dom$exceptiondump 
+--- From 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\exception.obj'
+01:00011B90 exception$DESCR  (Idle)
+01:00011BEC $global$dom$exception 
+01:00011C04 $global$dom$exception$moduleinfopredicate 
+01:00011C1C $global$dom$exception$exceptionid 
+01:00011C34 $global$dom$exception$errorcode 
+01:00011C4C $global$dom$exception$errorcode_list 
+01:00011C64 $global$dom$exception$moduleexception 
+01:00011C7C $global$dom$exception$moduleexception_list 
+01:00011C94 $global$dom$exception$kind 
+01:00011CAC $global$dom$exception$position 
+01:00011CC4 $global$dom$exception$timestamp 
+01:00011CDC $global$dom$exception$descriptor 
+--- From 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\labus.obj'
+01:00011EE0 labus$DESCR  (Idle)
+01:00011F10 $global$dom$labus 
+--- From 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\Goal.obj'
+01:00011F70 $global$dom$char 
+01:00011F88 $global$dom$byte 
+01:00011FA0 $global$dom$sbyte 
+01:00011FB8 $global$dom$ushort 
+01:00011FD0 $global$dom$short 
+01:00011FE8 $global$dom$unsigned 
+01:00012000 $global$dom$integer 
+01:00012018 $global$dom$ulong 
+01:00012030 $global$dom$long 
+01:00012048 $global$dom$real 
+01:00012060 $global$dom$binary 
+01:00012078 $global$dom$ref 
+01:00012090 $global$dom$string 
+01:000120A8 $global$dom$symbol 
+01:000120C0 $global$dom$char$  (Idle)
+01:000120D8 $global$dom$byte$  (Idle)
+01:000120F0 $global$dom$sbyte$  (Idle)
+01:00012108 $global$dom$ushort$  (Idle)
+01:00012120 $global$dom$short$  (Idle)
+01:00012138 $global$dom$unsigned$  (Idle)
+01:00012150 $global$dom$integer$ 
+01:00012168 $global$dom$ulong$  (Idle)
+01:00012180 $global$dom$long$  (Idle)
+01:00012198 $global$dom$real$ 
+01:000121B0 $global$dom$binary$ 
+01:000121C8 $global$dom$ref$  (Idle)
+01:000121E0 $global$dom$string$ 
+01:000121F8 $global$dom$symbol$  (Idle)
+01:00012210 $global$dom$word  (Idle)
+01:00012228 $global$dom$dword  (Idle)
+01:00012240 $global$dom$file 
+01:00012258 $global$dom$db_selector 
+01:00012270 $global$dom$bt_selector  (Idle)
+01:00012288 $global$dom$reg 
+01:000122A0 $global$dom$dbasedom 
+01:000122B8 $global$dom$place 
+01:000122D0 $global$dom$accessmode 
+01:000122E8 $global$dom$denymode 
+01:00012300 $global$dom$bgi_ilist 
+01:00012453 _PROLOG_Vars 
+--- From 'Obj\Labus.sym'
+01:000124B0 _PROLOG_SymbolTable 
+--- From 'ioclose.obj'
+01:00012DD0 _IO_Vars 
+--- From 'iomin.obj'
+01:00012DF0 _IO_SystemPF 
+--- From 'memheapn.obj'
+01:00012DF8 _MemManagerDescr 
+01:00012E28 _MEM_HStat_CB 
+--- From 'errrep1.obj'
+01:00012E40 _RUN_IsVpi 
+--- From 'errputms.obj'
+01:00012E44 _RUN_IsEasyWin 
+--- From 'runflags.obj'
+01:00012E48 _RUN_IsEasyWinBreaked 
+--- From 'rntcfci.obj'
+01:00012E4C ___MainThreadDescr__ 
+01:00012E94 ___PTD__ 
+--- From 'runexit1.obj'
+01:00012E94 _RUN_BTop 
+--- From 'runexcpt.obj'
+01:00012E98 _RUN_TrapTop 
+--- From 'runinit.obj'
+01:00012E9C _RUN_Trail 
+01:00012EA0 _RUN_TTop 
+01:00012EA4 _RUN_MaxTTop 
+--- From 'dbmain.obj'
+01:00012EA8 _RUN_ExitCode 
+--- From 'runexit1.obj'
+01:00012EAC _RUN_ErrorFlag 
+--- From 'runinit.obj'
+01:00012EB0 _RUN_SaveStack 
+--- From 'errputms.obj'
+01:00012EB4 _ERR_SaveErrorNo 
+--- From 'runbtrak.obj'
+01:00012EB8 _ERR_SaveSourceOffset  (Idle)
+01:00012EBC _ERR_SaveIncludeNo  (Idle)
+01:00012EC0 _MEM_CommitTop 
+--- From 'hashfns.obj'
+01:00012EC4 _MEM_GTop 
+--- From 'runbtrak.obj'
+01:00012EC8 _MEM_GBase 
+01:00012ECC _MEM_GMax 
+01:00012ED0 _User_Data  (Idle)
+01:00012ED4 _ErrorCursor_Ptr  (Idle)
+--- From 'erracces.obj'
+01:00012ED8 _ERR_NativeOsErrorCode 
+01:00012EDC _RUN_ExceptionCode 
+--- From 'runexcpt.obj'
+01:00012EE0 _RUN_ExceptionInProgress 
+--- From 'erracces.obj'
+01:00012EE4 _ERR_AdditiveInfo 
+--- From 'runinit.obj'
+01:00012FA4 _PTD_ptr 
+--- From 'osinit.obj'
+01:00013148 _NT_LibraryNeeded_v52 
+--- From 'iowritef.obj'
+01:00013200 _IOBUFF_Size 
+01:00013204 _IOBUFF_Rate 
+--- From 'mem_prof.obj'
+01:00013208 _statFileHandle 
+01:0001320C _contextIndex 
+--- From 'errinit.obj'
+01:0001334C _ERR_SourceOffset  (Idle)
+01:00013350 _ERR_IncludeNo  (Idle)
+--- From 'memobj.obj'
+01:00013354 _ERR_FileTable 
+--- From 'errsave.obj'
+01:00013358 _ERR_SaveFileTable 
+--- From 'errsys.obj'
+01:00013368 _ERR_FileName 
+01:00013370 _ERR_FileDir 
+01:00013374 _ERR_File 
+--- From 'errputms.obj'
+01:00013378 _ERR_UserErrRepFns 
+--- From 'chinit.obj'
+01:000133E0 _CH_LowerTab 
+01:000134E0 _CH_UpperTab 
+01:000135E0 _CH_ClassTab 
+--- From 'hashinit.obj'
+01:00013AA8 _HASH_GlobSymbPtr 
+01:00013AAC _HASH_SymbRoot 
+--- From 'dbmain.obj'
+01:00013AB0 _DB_FDesArr 
+01:00013AB4 _DB_Initialized 
+01:00013AB8 _DB_MemBases 
+--- From 'dbmin.obj'
+01:00013ABC _DB_NoOfDbSel 
+--- From 'rntinit.obj'
+01:00013AC0 _RNT_iiii 
+01:00013AD4 _RNT_ReadTermErrorOccured 
+01:00013AD8 _RNT_ReadTermErrorLinePos  (Idle)
+--- From 'rununify.obj'
+01:00013CF8 _RUN_uc 
+--- From 'conv_bs.obj'
+01:00013D00 _CONV_HexChar 
+--- From 'memobj.obj'
+01:00013E88 _MEM_ObjectsListHead 
+--- From 'emminit.obj'
+01:00013FB4 _EMM_Active 
+--- From 'emmsel.obj'
+01:00013FB8 _EMM_Frame 
+--- From 'emmend.obj'
+01:00013FBC _EMM_Pages  (Idle)
+--- From 'rntcfact.obj'
+01:00013FC0 ___  (Idle)
+--- From 'obj\i386\resolve.obj'
+01:00014010 _m_rgDLLMap 
+010000:0040A8 000004   .data$_kernel32_GetProcAddress::DATA::DGROUP F=4
+--- From 'obj\i386\alias_kernel32_GetProcAddress.obj'
+01:000140A8 __imp__GetProcAddress@8 
+--- From 'obj\i386\thunk_kernel32_GetProcAddress.obj'
+01:000140A8 _kernel32_GetProcAddress_Ptr 
+010000:0040AC 000004   .data$_user32_CallWindowProcA::DATA::DGROUP F=4
+--- From 'obj\i386\thunk_user32_CallWindowProcA.obj'
+01:000140AC _user32_CallWindowProcA_Ptr 
+--- From 'obj\i386\alias_user32_CallWindowProcA.obj'
+01:000140AC __imp__CallWindowProcA@20 
+010000:0040B0 000004   .data$_user32_GetWindowLongA::DATA::DGROUP F=4
+--- From 'obj\i386\thunk_user32_GetWindowLongA.obj'
+01:000140B0 _user32_GetWindowLongA_Ptr 
+--- From 'obj\i386\alias_user32_GetWindowLongA.obj'
+01:000140B0 __imp__GetWindowLongA@8 
+010000:0040B4 000004   .data$_user32_SetWindowLongA::DATA::DGROUP F=4
+--- From 'obj\i386\thunk_user32_SetWindowLongA.obj'
+01:000140B4 _user32_SetWindowLongA_Ptr 
+--- From 'obj\i386\alias_user32_SetWindowLongA.obj'
+01:000140B4 __imp__SetWindowLongA@12 
+010000:0040C0 000010   PROMODE::DATA::DGROUP F=4
+--- From 'rntcfci.obj'
+01:000140C0 endbyt 
+Frame 020000   Size 000690.  Name=<  .rdata>, 	Chars=40000040h. [IR]
+020000:000000 000690   .rdata::.rdata::.rdata F=4
+--- From 'mem_prof.obj'
+02:00020000 _list_Functor 
+02:00020004 _nil_Functor 
+02:00020008 _HeaderStr_ModuleName 
+02:0002000C _HeaderStr_FileName 
+02:00020010 _HeaderStr_Position 
+02:00020014 _FactHeaderStr_DBase 
+02:00020018 _FactHeaderStr_Name 
+02:0002001C _ClassHeaderStr_Name 
+02:00020020 _ClassHeaderStr_Interface  (Idle)
+02:00020024 _AbsentDBaseInfo_Str 
+--- From 'rntinit.obj'
+02:00020060 _Max_ModulesTableElements 
+--- From 'obj\i386\failure.obj'
+02:00020238 ??_C@_0L@GMPLCCII@user32?4dll?$AA@ 
+--- From 'obj\i386\thunk_user32_CallWindowProcA.obj'
+02:00020244 ??_C@_0BA@BPKDOBNP@CallWindowProcA?$AA@ 
+--- From 'obj\i386\failure.obj'
+02:00020260 ??_C@_0P@FENPCPLI@SetWindowLongA?$AA@ 
+02:0002027C ??_C@_0P@JKMBNFJE@GetWindowLongA?$AA@ 
+02:0002028C ??_C@_0N@MDJJJHMB@kernel32?4dll?$AA@ 
+--- From 'obj\i386\thunk_kernel32_GetProcAddress.obj'
+02:0002029C ??_C@_0P@DGIDOA@GetProcAddress?$AA@ 
+--- From 'obj\i386\resolve.obj'
+02:000202AC ??_C@_0M@LFKFALEL@msvfw32?4dll?$AA@ 
+02:000202B8 ??_C@_0M@GNJPFCHP@sensapi?4dll?$AA@ 
+02:000202C4 ??_C@_0L@MFANFMBE@oledlg?4dll?$AA@ 
+02:000202D0 ??_C@_0L@OADEGAIP@oleacc?4dll?$AA@ 
+--- From 'obj\i386\failure.obj'
+02:000202DC ??_C@_0M@KOFABFN@secur32?4dll?$AA@ 
+--- From 'obj\i386\resolve.obj'
+02:000202E8 ??_C@_0N@IMJBHDLM@avicap32?4dll?$AA@ 
+02:000202F8 ??_C@_0N@ICCOAHAN@winspool?4drv?$AA@ 
+02:00020308 ??_C@_09CBHKFKGB@winmm?4dll?$AA@ 
+02:00020314 ??_C@_0N@GNDPINJL@rasapi32?4dll?$AA@ 
+02:00020324 ??_C@_07DJIBAOMD@mpr?4dll?$AA@ 
+02:0002032C ??_C@_0M@JHNIIDCD@version?4dll?$AA@ 
+02:00020338 ??_C@_0N@KIEIKGAE@comdlg32?4dll?$AA@ 
+--- From 'obj\i386\failure.obj'
+02:00020348 ??_C@_0M@KFDNOLCO@shell32?4dll?$AA@ 
+--- From 'obj\i386\resolve.obj'
+02:00020354 ??_C@_0N@INAGJMNN@advapi32?4dll?$AA@ 
+--- From 'obj\i386\failure.obj'
+02:00020364 ??_C@_09HDGMBNAP@gdi32?4dll?$AA@ 
+--- From 'obj\i386\resolve.obj'
+02:0002038C ??_C@_0M@JNPPCEJC@unicows?4dll?$AA@ 
+02:00020398 _c_szReg 
+02:000203C4 _c_szVal 
+02:000203D4 _c_szPath 
+02:000203EC _RtlAlternateDosPathSeperatorString  (Idle)
+02:000203F4 ??_C@_13CGOKJPIL@?$AA?1?$AA?$AA@ 
+02:000203F8 _RtlDosPathSeperatorsString  (Idle)
+02:00020400 ??_C@_15MNCACJLI@?$AA?2?$AA?1?$AA?$AA@ 
+02:00020408 _RtlNtPathSeperatorString  (Idle)
+02:00020410 ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 
+02:00020414 ??_C@_0BB@HHEIPGME@RegQueryValueExA?$AA@ 
+02:00020428 ??_C@_0O@DCOGKJGG@RegOpenKeyExA?$AA@ 
+--- From 'obj\i386\failure.obj'
+02:00020448 ??_C@_0O@IBILDNOM@FindResourceW?$AA@ 
+02:00020458 ??_C@_0BA@PPKLBMBF@FindResourceExW?$AA@ 
+02:00020468 ??_C@_09HLFMNDA@GetCPInfo?$AA@ 
+02:00020474 ??_C@_0BA@CIODELF@IsValidCodePage?$AA@ 
+02:00020484 ??_C@_08CELJMBIE@lstrcatW?$AA@ 
+02:00020490 ??_C@_08MEMEGCCN@lstrcpyW?$AA@ 
+02:0002049C ??_C@_08DIDKOHKE@lstrlenW?$AA@ 
+02:000204A8 ??_C@_0BE@HCIKGJGE@MultiByteToWideChar?$AA@ 
+02:000204BC ??_C@_0BE@LJADKLBD@WideCharToMultiByte?$AA@ 
+02:000204D0 ??_C@_13NOLLCAOD@?$AA?$AA?$AA?$AA@ 
+02:000204E0 ??_C@_0L@PPDLNECB@DdeConnect?$AA@ 
+02:000204EC ??_C@_0P@EFHHDCDI@DdeConnectList?$AA@ 
+02:000204FC ??_C@_0BB@ENKIODFG@DdeQueryConvInfo?$AA@ 
+02:00020510 ??_C@_0BF@NKEJCDAN@EnumClipboardFormats?$AA@ 
+02:00020528 ??_C@_0L@KHCEFBLN@EnumPropsA?$AA@ 
+02:00020534 ??_C@_0N@HBOFMGEI@EnumPropsExA?$AA@ 
+02:00020544 ??_C@_0N@IPGECGPG@EnableWindow?$AA@ 
+02:00020554 ??_C@_0BB@MFFIAPJA@GetClipboardData?$AA@ 
+02:00020568 ??_C@_08HCGDJFGB@GetPropA?$AA@ 
+02:00020584 ??_C@_0BL@PBEALDID@IsClipboardFormatAvailable?$AA@ 
+02:000205A0 ??_C@_0BA@KKLHGEKD@IsWindowUnicode?$AA@ 
+02:000205B0 ??_C@_0M@DLDCCGNP@MessageBoxW?$AA@ 
+02:000205BC ??_C@_0O@IBKFAKHA@MessageBoxExW?$AA@ 
+02:000205CC ??_C@_0M@DANBLHIA@RemovePropA?$AA@ 
+02:000205D8 ??_C@_08IDEPIGBM@SetPropA?$AA@ 
+02:00020600 ??_C@_0M@EPGIJEDD@ExtTextOutW?$AA@ 
+02:0002060C ??_C@_0O@OEAPAOEJ@GetCharWidthW?$AA@ 
+02:0002061C ??_C@_0BE@IHIFKDBN@GetTextExtentPointW?$AA@ 
+02:00020630 ??_C@_0BG@NGOCIDPC@GetTextExtentPoint32W?$AA@ 
+02:00020648 ??_C@_08MBDHBAEG@TextOutW?$AA@ 
+02:00020660 ??_C@_0P@BHLIO@SHChangeNotify?$AA@ 
+02:0002067C ??_C@_0BC@LCABLLAA@FreeContextBuffer?$AA@ 
+Frame 030000   Size 018760.  Name=<   .text>, 	Chars=60000020h. [CER]
+030000:000000 017DB4   .text::CODE::<no group> F=4
+--- From 'erracces.obj'
+03:00030000 __chkstk 
+--- From 'D:\VIP\Vpi\Lib\Win32\MSC\Init32.obj'
+03:0003002F _PDCPrologStart  (Idle)
+--- From 'D:\VIP\Lib\Win32\MSC\Easywin.obj'
+03:000300A0 _xPDCStdProc@16 
+03:0003019B _EasySubclassProc@16 
+03:0003028B _IO_RdLine 
+--- From 'ioout.obj'
+03:000302FE _IO_WrStrCon 
+03:0003031C _IO_WrChCon 
+--- From 'D:\VIP\Lib\Win32\MSC\Easywin.obj'
+03:00030723 _IO_RdIntg  (Idle)
+03:00030789 _IO_RdReal  (Idle)
+03:000307EF _IO_RdCh  (Idle)
+03:00030818 _easywin_CloseAfterEnd  (Idle)
+03:00030825 _WinMain@16 
+--- From 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\core.obj'
+03:00030B74 core$delete$1  (Idle)
+--- From 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\exceptionDump.obj'
+03:00030BA4 exceptiondump$moduleinfo$1  (Idle)
+03:00030BF8 exceptiondump$writedump$2  (Idle)
+03:00030C88 exceptiondump$delete$3  (Idle)
+03:00030C9C exceptiondump$gettimestamp$4  (Idle)
+03:00030D34 exceptiondump$write2$5  (Idle)
+03:00030DB0 exceptiondump$writetimestamp$6  (Idle)
+03:00030E18 exceptiondump$writedate$7  (Idle)
+03:00030EAC exceptiondump$writetime$8  (Idle)
+03:00030F60 exceptiondump$writemoduleinfo$9  (Idle)
+03:00031034 exceptiondump$writeposition$10  (Idle)
+03:000310C4 exceptiondump$writefilename$11  (Idle)
+03:00031120 exceptiondump$writeextrainfo$12  (Idle)
+03:00031198 exceptiondump$writenamedvalue$13  (Idle)
+03:000311E0 exceptiondump$writevalue$14  (Idle)
+03:000312FC exceptiondump$writedescriptor$15  (Idle)
+03:00031470 exceptiondump$writealltraces$16  (Idle)
+--- From 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\exception.obj'
+03:000314D4 exception$moduleinfo$1 
+03:00031528 exception$unknownmoduleinfo$2 
+03:00031574 exception$raise$3  (Idle)
+03:000315A4 exception$raise$4 
+03:000315F4 exception$continue$5  (Idle)
+03:00031628 exception$continue$6 
+03:0003169C exception$continue$7  (Idle)
+03:000316D4 exception$clear$8 
+03:00031928 exception$getdescriptor_det$9 
+03:000319DC exception$getdescriptor_nd$10  (Idle)
+03:00031A14 exception$getdescriptor_nd$11  (Idle)
+03:00031A5C exception$getalltraces_nd$12 
+03:00031A88 exception$clearexceptionstate$13  (Idle)
+03:00031AA8 exception$clearorcontinue_fail$14 
+03:00031AE4 exception$clearorcontinueexception_fail$15 
+03:00031B38 exception$clearorcontinue_pr$16  (Idle)
+03:00031B8C exception$clearorcontinueexception_pr$17 
+03:00031CC8 exception$delete$18  (Idle)
+03:00031CDC exception$nextid_db$20  (Idle)
+03:00031D08 exception$getnextid$20  (Idle)
+03:00031D54 exception$istraceid$21  (Idle)
+03:00031D78 exception$createdescriptor$22  (Idle)
+03:00031DF0 exception$gettimestamp$23  (Idle)
+03:00031E68 exception$getposition$24  (Idle)
+03:00031F40 exception$descriptor_db$26  (Idle)
+03:00032048 exception$assertdescriptor$26  (Idle)
+03:00032098 exception$getlastexceptionid$27  (Idle)
+03:000320EC exception$raisenonlast$28  (Idle)
+03:00032150 exception$createexternaldescriptor$29  (Idle)
+03:000321EC exception$externalextrainfo$30  (Idle)
+03:00032354 exception$externalerror$31  (Idle)
+03:00032404 exception$checkfornonlast$32  (Idle)
+03:000324A4 exception$tomoduleexception_list$33  (Idle)
+03:00032510 exception$descriptor_db$36  (Idle)
+--- From 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\Goal.obj'
+03:00032594 labus$run$1 
+--- From 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\labus.obj'
+03:000325A8 labus$delete$2  (Idle)
+--- From 'F:\2 курс\prolog\челеникс\lab4\Labus\Obj\Goal.obj'
+03:000325C0 _PROLOG_ErrReport 
+03:000325C5 _CFG_Load  (Idle)
+03:000325DC _PROLOG_Goal 
+--- From 'iogetln.obj'
+03:00032610 _IO_getln 
+--- From 'osfmatch.obj'
+03:000327D0 _STR_StrCat0 
+--- From 'meminit.obj'
+03:00032887 _MEM_GStackInit 
+--- From 'memgstk.obj'
+03:00032976 _MEM_SystemFreeGStack 
+--- From 'hashfns.obj'
+03:000329FB _MEM_AllocGStack 
+--- From 'rntconv.obj'
+03:00032AC0 _MEM_GetMaxGStack 
+--- From 'erracces.obj'
+03:00032B15 _MEM_GetBigGStack 
+--- From 'rntconv.obj'
+03:00032B30 _MEM_FreeGStack 
+--- From 'meminit.obj'
+03:00032B40 _MEM_GStackTerm 
+--- From 'memgstk.obj'
+03:00032B7B _MEM_MarkGStack  (Idle)
+03:00032B90 _MEM_ReleaseGStack  (Idle)
+03:00032BA3 _MEM_GStat  (Idle)
+--- From 'conv_fs.obj'
+03:00032BF0 _MEM_SetMem 
+--- From 'memsetc.obj'
+03:00032C1D _MEM_SetMemW  (Idle)
+--- From 'runinit.obj'
+03:00032C50 _IO_Init 
+--- From 'iomin.obj'
+03:00032CB1 _IO_IsConsoleInput 
+--- From 'meminit.obj'
+03:00032CD0 __MEM_HeapInit 
+--- From 'memdynsp.obj'
+03:00033413 _MEM_AllocHeap@4 
+03:00033604 _MEM_ReleaseHeap@8 
+--- From 'memheapn.obj'
+03:00033894 _MEM_ResizeHeap@8  (Idle)
+--- From 'meminit.obj'
+03:00033BD2 _MEM_HeapTerminate 
+--- From 'memheapn.obj'
+03:00033C9A _MEM_HStat  (Idle)
+--- From 'osrdbin.obj'
+03:00033D20 _BRK_CheckBreak 
+--- From 'brksimp.obj'
+03:00033D34 _BRK_Init  (Idle)
+03:00033D3F _BRK_End  (Idle)
+03:00033D4A _BRK_Clear  (Idle)
+--- From 'runflags.obj'
+03:00033D60 _RUN_VpiPresent  (Idle)
+03:00033D72 _RUN_EasyWinPresent 
+03:00033D84 _RUN_EasyWinBreaked 
+--- From 'memdynsp.obj'
+03:00033DB0 _MEM_MovMem 
+--- From 'convpred.obj'
+03:00033E80 _CONV_s_i_oi  (Idle)
+03:00033EA5 _CONV_s_i_ii  (Idle)
+03:00033ED4 _CONV_s_i_io 
+03:00033F54 _CONV_s_l_oi  (Idle)
+03:00033F79 _CONV_s_l_ii  (Idle)
+03:00033FA8 _CONV_s_l_io 
+03:00034063 _CONV_up_low_ii  (Idle)
+03:000340EA _CONV_up_low_oi  (Idle)
+03:00034159 _CONV_up_low_io  (Idle)
+03:000341C8 _CONV_UpLowCh_ii  (Idle)
+03:00034201 _CONV_UpLowCh_io  (Idle)
+03:0003421E _CONV_UpLowCh_oi  (Idle)
+03:0003423B _CONV_s_r_ii  (Idle)
+03:0003426F _CONV_s_r_oi  (Idle)
+03:000342B0 _CONV_s_r_io 
+03:00034320 _CONV_Str_Ref_io 
+03:0003438C _CONV_Str_Ref_oi  (Idle)
+03:000343E1 _CONV_Str_Ref_ii  (Idle)
+03:00034410 _CONV_r_ints_io  (Idle)
+03:0003449C _CONV_r_ints_oi  (Idle)
+03:00034504 _CONV_c_i_io  (Idle)
+03:00034519 _CONV_c_i_oi  (Idle)
+03:0003452C _CONV_c_i_ii  (Idle)
+03:0003454A _CONV_s_c_io  (Idle)
+03:00034579 _CONV_s_c_oi  (Idle)
+03:000345A2 _CONV_s_c_ii  (Idle)
+03:000345DC _CONV_str_DOSstr_oi 
+03:000346CD _CONV_str_DOSstr_io  (Idle)
+03:000347D2 _CONV_str_DOSstr_ii  (Idle)
+--- From 'ioin.obj'
+03:00034810 _IO_FillReadBuf 
+03:000348CF _IO_GetCh 
+--- From 'errfatal.obj'
+03:00034980 _RUN_FatalExit 
+--- From 'runinit.obj'
+03:00034998 _RUN_InstallModule  (Idle)
+03:00034A08 _RUN_SetDllMode  (Idle)
+03:00034A1A _RUN_GetRunTimeVars 
+03:00034FCF _RUN_Init 
+03:000350F3 _RUN_End 
+03:0003513B _RUN_Main  (Idle)
+03:00035284 _RUN_GetErrorFlag 
+03:00035299 _RUN_GetExitCode 
+03:000352AE _RUN_SetExitCode  (Idle)
+03:000352C1 _RUN_GetPTD_ptr  (Idle)
+03:000352D6 _RUN_SetPTD_ptr  (Idle)
+03:000352E9 _RUN_GetBTop  (Idle)
+03:000352FE _RUN_SetBTop  (Idle)
+03:00035311 _RUN_GetTrapTop  (Idle)
+03:00035326 _RUN_SetTrapTop  (Idle)
+03:00035339 _RUN_GetGTop  (Idle)
+03:0003534E _RUN_SetGTop  (Idle)
+03:00035361 _RUN_SetUC0  (Idle)
+03:00035376 _RUN_SetUC1  (Idle)
+03:0003538B _PDC_GetLibraryVersion  (Idle)
+--- From 'osfmatch.obj'
+03:000353B0 _STR_StrCat 
+--- From 'dbmain.obj'
+03:000353F0 _RUN_ErrorCont 
+--- From 'osseekwr.obj'
+03:00035443 _RUN_Error 
+03:0003547B _RUN_OsError 
+--- From 'runerr.obj'
+03:000354F5 _RUN_ErrorExit  (Idle)
+03:0003550D _RUN_UnresolvedRefError  (Idle)
+--- From 'osinit.obj'
+03:00035530 _OS_Init 
+--- From 'rntwrite.obj'
+03:000355B1 _IO_WrCh 
+--- From 'iowritef.obj'
+03:00035653 _IO_WrStr 
+--- From 'ionl.obj'
+03:00035750 _IO_Nl 
+--- From 'osdate1.obj'
+03:00035790 _OS_Date_ooo 
+03:000357B6 _OS_Date_oooo 
+--- From 'ostime1.obj'
+03:00035800 _OS_Time_oooo 
+--- From 'rntwrite.obj'
+03:00035860 _IO_WrSByte 
+03:00035881 _IO_WrUByte 
+03:000358A3 _IO_WrShort 
+--- From 'iowintg.obj'
+03:000358C4 _IO_WrIntg  (Idle)
+--- From 'rntwrite.obj'
+03:000358E4 _IO_WrUShort 
+03:00035910 _IO_WrLong 
+03:00035930 _IO_WrULong 
+--- From 'iowreltc.obj'
+03:00035950 _IO_WrReal 
+--- From 'rntwrite.obj'
+03:00035970 _IO_WrBinary 
+03:00035A00 _RNT_SkrivDom 
+03:00036021 _RNT_WriteTerm 
+--- From 'runexit1.obj'
+03:00036050 _RUN_Exit 
+--- From 'runexcpt.obj'
+03:00036079 _RUN_ExitZero 
+--- From 'rntcpyg1.obj'
+03:00036090 _RNT_CopyStrToGStack 
+--- From 'rntcpyg3.obj'
+03:000360B0 _RNT_CopyTermToGStack 
+--- From 'rntretr2.obj'
+03:00036420 _RNT_FinishRetract 
+03:00036460 _RNT_RetractallVar 
+--- From 'rntasszs.obj'
+03:00036520 _RNT_AssertzSimple 
+--- From 'errfatal.obj'
+03:000367B0 _ERR_LastError 
+--- From 'rntassa.obj'
+03:00036870 _RNT_Asserta 
+--- From 'errsys.obj'
+03:00036AA0 _OS_SysPath 
+--- From 'fnmpred.obj'
+03:00036B10 _FNM_FileNamePath_ioo  (Idle)
+03:00036B63 _FNM_FileNamePath_oii 
+03:00036BDA _FNM_FileNameExt_ioo  (Idle)
+03:00036C5F _FNM_FileNameExt_oii  (Idle)
+03:00036CCE _FNM_Unique_o  (Idle)
+03:00036D06 _FNM_ReducePath_iio  (Idle)
+--- From 'errmsg.obj'
+03:00036D50 _ERR_ErrorMsg 
+--- From 'rntassz.obj'
+03:00036D80 _RNT_Assertz 
+--- From 'rntcfact.obj'
+03:00036FBB _RNT_AssertzIniTime 
+--- From 'rntassz.obj'
+03:0003713A _RNT_FC_Get 
+03:000371FB _RNT_FC_Free 
+--- From 'rntinit.obj'
+03:00037235 _RNT_FC_Terminate 
+--- From 'errputms.obj'
+03:000372A0 _ERR_UseMessageBox 
+--- From 'errrep1.obj'
+03:000372D0 _ERR_ReportLevel1 
+--- From 'rntconv.obj'
+03:00037400 _MEM_AdjustGStackAlloc 
+--- From 'iobuff.obj'
+03:00037450 _IO_BuffInit 
+03:0003746F _IO_BuffSize_ii  (Idle)
+03:000374D6 _IO_BuffSize_oo  (Idle)
+--- From 'ioclose.obj'
+03:00037500 _IO_FlushBuf 
+--- From 'ioflush.obj'
+03:00037565 _IO_Flush 
+--- From 'meminit.obj'
+03:000375F0 _MEM_Init 
+03:00037664 _MEM_Terminate 
+--- From 'ioclose.obj'
+03:00037690 _IO_init_pr_files 
+--- From 'ioinit.obj'
+03:000378E3 _IO_End  (Idle)
+--- From 'rnthread.obj'
+03:000379A0 _MEM_SetMem0 
+--- From 'memsetc0.obj'
+03:000379C1 _MEM_SetMemW0  (Idle)
+--- From 'mem_prof.obj'
+03:00037A65 _setRecursiveContextCheck@4  (Idle)
+--- From 'dbmain.obj'
+03:00037B01 _memProf_ContextOpen@8 
+03:00037B85 _memProf_ContextClose@4 
+--- From 'mem_prof.obj'
+03:00037BA7 _sizeOfSListInChar 
+03:00037C56 _memProf_WriteAlloc@8 
+03:00037D19 _memProf_WriteDeAlloc@4 
+03:00037D71 _memProf_WriteBookMark@4  (Idle)
+03:00037EFE _memProf_WriteContextDefine@16 
+03:00038610 _memProf_Open@4  (Idle)
+03:000386AE _memProf_Close@0 
+--- From 'errinit.obj'
+03:00038700 _Reduce 
+03:0003878E _LookForErrDir 
+03:000388DE _ERR_Init 
+03:00038954 _ERR_InstallUserRepFns  (Idle)
+--- From 'errfatal.obj'
+03:00038970 _ERR_Fatal 
+--- From 'rntcpyg2.obj'
+03:00038AD0 _MEM_SaveBinaryGStack 
+--- From 'memsave.obj'
+03:00038B18 _MEM_SaveBinaryHeap  (Idle)
+--- From 'osfmatch.obj'
+03:00038B5D _MEM_SaveStringGStack 
+--- From 'memsave.obj'
+03:00038BA6 _MEM_SaveStringHeap  (Idle)
+03:00038BEC _MEM_ReleaseStringHeap  (Idle)
+--- From 'erracces.obj'
+03:00038C10 _CONV_IntToStr 
+03:00038CB9 _CONV_UnsignedToStr 
+03:00038E41 _SCAN_Intg 
+--- From 'chinit.obj'
+03:000390C0 _CH_Init 
+--- From 'fnmuniqs.obj'
+03:000392CA _Get_CH_ClassTab 
+--- From 'strcmpi.obj'
+03:000392DF _Get_CH_UpperTab 
+--- From 'strlower.obj'
+03:000392F4 _Get_CH_LowerTab 
+--- From 'iowritef.obj'
+03:0003A3BD _IO_WritefInit  (Idle)
+03:0003A3FA _IO_WritefDom  (Idle)
+03:0003A531 _IO_FormatInit  (Idle)
+03:0003A563 _IO_Format  (Idle)
+03:0003A692 _IO_FormatEnd  (Idle)
+03:0003A6F4 _IO_WritefDisplaced 
+--- From 'memobj.obj'
+03:0003A8BE _IO_Writef 
+--- From 'iowritef.obj'
+03:0003A8E2 _IO_VSPrintf 
+03:0003A9F8 _IO_SPrintf 
+--- From 'scanreal.obj'
+03:0003AA30 _SCAN_Real 
+03:0003AA52 _SCAN_Real1 
+--- From 'scanref.obj'
+03:0003B050 _SCAN_Ref 
+--- From 'erracces.obj'
+03:0003B160 _CONV_LongHexToStr 
+--- From 'hashfns.obj'
+03:0003B1E0 _STR_StrCmp 
+--- From 'osrdtext.obj'
+03:0003B210 _OS_ReadBin 
+03:0003B2C0 _CONV_BinText 
+--- From 'osabort.obj'
+03:0003B45A _OS_AbendMessage_2 
+--- From 'runexcpt.obj'
+03:0003B52F _OS_AbendMessage 
+03:0003B54D _OS_AbortApp 
+--- From 'osabort.obj'
+03:0003B633 _OS_PressAnyKey 
+--- From 'runexcpt.obj'
+03:0003B65E _OS_IsConsoleApp 
+--- From 'osabort.obj'
+03:0003B699 _OS_APIErrorDebugNotify@4 
+--- From 'hashinit.obj'
+03:0003B790 _Get_HASH_GlobSymbPtr  (Idle)
+03:0003B7A5 _HASH_Init 
+--- From 'dbmin.obj'
+03:0003B7C0 _DB_Init 
+03:0003B82A _DB_End 
+--- From 'rntinit.obj'
+03:0003B960 _RNT_GetModulesTable 
+03:0003B975 _RNT_GetUserDomDef  (Idle)
+03:0003B98A _RNT_GetNoOfUserDoms  (Idle)
+03:0003B9A0 _RNT_Init 
+03:0003BA16 _RNT_End 
+--- From 'pfpbindc.obj'
+03:0003BB1C _PFP_Round@8  (Idle)
+03:0003BB47 _PFP_Trunc@8  (Idle)
+03:0003BB6B _PFP_Abs@8  (Idle)
+03:0003BB82 _PFP_RealLong@8 
+03:0003BC15 _PFP_RealUChar@8  (Idle)
+03:0003BC94 _PFP_RealChar@8  (Idle)
+03:0003BD27 _PFP_RealInt@8  (Idle)
+03:0003BDBA _PFP_RealUnsigned@8  (Idle)
+03:0003BE39 _PFP_RealULong@8  (Idle)
+03:0003BEB8 _PFP_ULongReal@4  (Idle)
+03:0003BEDD _PFP_LongReal@4  (Idle)
+03:0003BEFB _PFP_UnsReal@4  (Idle)
+03:0003BF20 _PFP_IntReal@4  (Idle)
+03:0003BF3E _LONG_Mod@8  (Idle)
+03:0003BF59 _LONG_UMod@8  (Idle)
+03:0003BF75 _LONG_Div@8  (Idle)
+03:0003BF8E _LONG_UDiv@8  (Idle)
+03:0003BFA8 _LONG_Mul@8  (Idle)
+03:0003BFC1 _LONG_UMul@8  (Idle)
+03:0003BFDA _PFP_Add@16  (Idle)
+03:0003BFF2 _PFP_Sub@16  (Idle)
+03:0003C00A _PFP_Mult@16  (Idle)
+03:0003C022 _PFP_Div@16  (Idle)
+03:0003C03A _PFP_RealRound@8  (Idle)
+03:0003C063 _PFP_Sin@8  (Idle)
+03:0003C087 _PFP_Cos@8  (Idle)
+03:0003C0AB _PFP_Tan@8  (Idle)
+03:0003C0CF _PFP_Atan@8  (Idle)
+03:0003C0F3 _PFP_Ln@8  (Idle)
+03:0003C117 _PFP_Log@8  (Idle)
+03:0003C13B _PFP_Exp@8  (Idle)
+03:0003C15F _PFP_Sqrt@8  (Idle)
+03:0003C181 _PFP_InitRestoreFpu 
+03:0003C233 _PFP_TrigFunction 
+03:0003C396 _PFP_SqrtFunction 
+03:0003C419 _PFP_LogFunction 
+03:0003C4E5 _PFP_ExpFunction 
+03:0003C6FD _PFP_RoundFunction 
+03:0003C85E _PFP_FloatToLong 
+03:0003C896 _PFP_FloatToInt 
+03:0003C8CE _PFP_CheckOverflow 
+03:0003C902 _PFP_Error 
+--- From 'runexcpt.obj'
+03:0003C923 _PFP_FPUReset 
+--- From 'rnthread.obj'
+03:0003C940 _RNT_GetThreadsList  (Idle)
+03:0003C955 _RNT_SetThreadsList  (Idle)
+03:0003C97B _RNT_GetAllocThreadFNS  (Idle)
+03:0003C990 _RNT_SetAllocThreadFNS  (Idle)
+03:0003C9B6 _RNT_InitThreads 
+--- From 'runexcpt.obj'
+03:0003CC0D _RUN_Error_From_Exception 
+03:0003D088 _RUN_ExceptionsHandling_i 
+03:0003D0AC _RUN_ExceptionsHandling_o  (Idle)
+--- From 'osgdir.obj'
+03:0003D0D0 _STR_StrCat0Max 
+--- From 'errsave.obj'
+03:0003D140 _ERR_SaveLastError 
+--- From 'dbmain.obj'
+03:0003D170 _OS_WriteBin 
+--- From 'oswrtext.obj'
+03:0003D1E0 _OS_WriteText 
+--- From 'iowref.obj'
+03:0003D280 _IO_WrRef 
+03:0003D29C _IO_WrProcAddr 
+03:0003D2B8 _IO_WrObject 
+--- From 'iowreltc.obj'
+03:0003D2E0 _IO_WrRealTC 
+--- From 'rntcpyg3.obj'
+03:0003D300 _RNT_CopyComplxToGStack 
+--- From 'memcopyg.obj'
+03:0003D3B0 _MEM_NewCopyGStack 
+--- From 'dbmain.obj'
+03:0003D3F0 _MEM_NewCopyHeap 
+--- From 'rntconv.obj'
+03:0003E014 _RNT_CopyToHeap 
+03:0003E10F _RNT_DBTermToBin  (Idle)
+03:0003E439 _RNT_CopyComplxToHeap  (Idle)
+--- From 'fnmfns.obj'
+03:0003E530 _FNM_AddSlash 
+03:0003E5A2 _FNM_RemoveSlash  (Idle)
+03:0003E5FD _FNM_ReducePath 
+03:0003E810 _FNM_ReduceCD  (Idle)
+03:0003E84C _FNM_Reduce 
+--- From 'fnmsrch.obj'
+03:0003EA8A _FNM_BuildExtFName 
+03:0003EE10 _FNM_BuildFullFName 
+--- From 'osfmatch.obj'
+03:0003EE30 _FNM_SplitCatSpec 
+--- From 'fnmfns.obj'
+03:0003EEF9 _FNM_RemoveFileMask 
+03:0003EF21 _FNM_RemovePath 
+03:0003F026 _FNM_RemoveExt 
+03:0003F054 _FNM_NewFileExt 
+03:0003F0B0 _FNM_SeeExt 
+03:0003F0EE _FNM_DefExt  (Idle)
+03:0003F19D _FNM_RemovePathAndExt  (Idle)
+03:0003F20A _FNM_GetExt  (Idle)
+--- From 'fnmuniq.obj'
+03:0003F260 _FNM_Unique 
+--- From 'erracces.obj'
+03:000402FF _ERR_ReadInitiate 
+--- From 'errsys.obj'
+03:00040474 _ERR_ReadErrorMsg 
+--- From 'erracces.obj'
+03:00040564 _ERR_SetAdditiveInfo  (Idle)
+--- From 'errputms.obj'
+03:00040580 _ERR_OutputMessage 
+--- From 'errsys.obj'
+03:00040650 _ERR_GetSysErrorMsg 
+--- From 'dbmain.obj'
+03:00040760 _OS_Flush 
+--- From 'memobj.obj'
+03:000407A0 _MEM_AllocObject  (Idle)
+03:0004088F _MEM_TestingObject  (Idle)
+03:0004091F _MEM_ReleaseObject  (Idle)
+03:00040A28 _MEM_InitiateObjects 
+03:00040A8B _MEM_TerminateObjects 
+03:00040AF4 _MEM_ObjectsDiag  (Idle)
+--- From 'ioclose.obj'
+03:00040CE0 _IO_CloseFile 
+03:00040E0C _IO_Close  (Idle)
+--- From 'fnmsrch.obj'
+03:00040EE0 _OS_Exist 
+--- From 'memreall.obj'
+03:00040FA0 _MEM_ReAllocHeap 
+--- From 'conv_fs.obj'
+03:00041373 _pow10 
+03:000418B4 _CONV_DoubleToString 
+--- From 'conv_bs.obj'
+03:00041D40 _CONV_BinToStr 
+03:00041E8D _CONV_Bin_To_StrList  (Idle)
+--- From 'strupper.obj'
+03:00041F80 _STR_ToUpper 
+--- From 'dbmain.obj'
+03:0004209E _DB_rdbin 
+03:00042213 _DB_seek_rdbin 
+03:000422E2 _DB_wrbin 
+03:00042440 _DB_seek_wrbin 
+03:0004250F _DB_release_dbase 
+03:00042640 _DB_alloc_dbase 
+03:00042A2C _DB_alloc_dbaseref  (Idle)
+03:00042EA4 _DB_lookup_dbaseref 
+03:00042FAE _DB_change_dbaseref 
+03:00043065 _DB_delete_dbaseref  (Idle)
+03:000430C3 _DB_lookup_entry  (Idle)
+03:000431F8 _DB_lookup_memdbase  (Idle)
+03:00043275 _DB_ins_memdbase  (Idle)
+03:000432B0 _DB_remove_memdbase  (Idle)
+03:0004331D _DB_dbase_init  (Idle)
+03:00043343 _DB_getfdes  (Idle)
+03:000433A6 _DB_reg_dbaseupdated  (Idle)
+03:00043432 _DB_AllocHeap@8 
+--- From 'emmend.obj'
+03:000434B0 _EMM_End 
+--- From 'osclose.obj'
+03:000434E0 _OS_Close 
+--- From 'osflock.obj'
+03:00043520 _OS_FLock  (Idle)
+03:00043583 _OS_FUnlock 
+--- From 'rntsynch.obj'
+03:000435F0 _RNT_EnterPredefCriticalSection  (Idle)
+03:00043608 _RNT_LeavePredefCriticalSection  (Idle)
+03:00043620 _RNT_SynchInit 
+03:00043638 _RNT_SynchTerm 
+--- From 'rntcfact.obj'
+03:00043650 _RNT_GatherModTab 
+03:0004372F _RNT_InitFactsShadowTable 
+03:00043744 _RNT_TermFactsShadowTable 
+03:00043897 _RNT_CopyFacts 
+03:000439BD _RNT_CopyObjectFacts  (Idle)
+--- From 'osthread.obj'
+03:00043A60 _OS_CreateCriticalUnChecked 
+03:00043A7C _OS_CreateCriticalSection 
+03:00043AB6 _OS_DeleteCriticalSection 
+03:00043ACB _OS_EnterCriticalSection 
+03:00043AE0 _OS_LeaveCriticalSection 
+03:00043AF5 _OS_DuplicateHandle  (Idle)
+03:00043B4C _OS_GetCurrentThreadID 
+--- From 'rntcpyg3.obj'
+03:00043B70 _RNT_CopyUnify 
+--- From 'memgsptr.obj'
+03:00043BC0 _MEM_PtrOlder  (Idle)
+03:00043BDF _MEM_PtrPtrOlder  (Idle)
+--- From 'convtxbn.obj'
+03:00043C10 _CONV_TextBin 
+--- From 'rntfixup.obj'
+03:00043CC0 _RNT_FixUpBinChunk 
+--- From 'iogpath.obj'
+03:00043D10 _IO_GetPath 
+--- From 'osgdisk.obj'
+03:00043DB0 _OS_GetDisk 
+--- From 'osgdir.obj'
+03:00043E00 _OS_GetDir 
+--- From 'fnmuniqs.obj'
+03:00043FB0 _FNM_UniqueCat 
+03:00043FD3 _FNM_Decrement 
+--- From 'osrdtext.obj'
+03:00044060 _OS_ReadText 
+--- From 'osseek.obj'
+03:000440A0 _OS_Seek 
+--- From 'osopen.obj'
+03:000440F0 _OS_Open 
+--- From 'strcatm.obj'
+03:00044340 _STR_StrCatMax 
+--- From 'osseekrd.obj'
+03:000443E0 _OS_SeekRdBin 
+--- From 'strcmpi.obj'
+03:00044450 _STR_StrCmpi 
+--- From 'fnmsrch.obj'
+03:00044500 _FNM_SearchFile 
+03:00044720 _FNM_SearchFile_iio  (Idle)
+--- From 'osgenvs.obj'
+03:00044780 _OS_GetEnvSymb 
+--- From 'osfmatch.obj'
+03:00044DEE _OS_FindFirst 
+03:00044EF7 _OS_FindNext  (Idle)
+03:00045002 _OS_FindClose 
+--- From 'emmalloc.obj'
+03:00045030 _EMM_Alloc 
+03:000450B8 _EMM_NewHandle  (Idle)
+03:0004510D _EMM_CloseHandle  (Idle)
+--- From 'emmsel.obj'
+03:00045190 _EMM_SelectPage 
+--- From 'osseekwr.obj'
+03:000451C0 _OS_SeekWrBin 
+--- From 'memdynar.obj'
+03:00045230 _MEM_NewDynarray 
+03:000452D2 _MEM_CreateDynarray 
+--- From 'hashfns.obj'
+03:00045320 _HASH_DynLookup 
+03:000453FD _HASH_DynInsert 
+03:000455B6 _HASH_DynDelKey  (Idle)
+--- From 'emminit.obj'
+03:00045690 _EMM_Init 
+--- From 'strncmp.obj'
+03:000456B0 _STR_StrNCmp 
+--- From 'strucat.obj'
+03:000456F0 _STR_UCat 
+--- From 'strsstr.obj'
+03:00045770 _STR_SearchChar  (Idle)
+03:00045858 _STR_SearchStr 
+--- From 'strlower.obj'
+03:00045930 _STR_ToLower 
+--- From 'memdynsp.obj'
+03:00045970 _MEM_AllocDynspace 
+03:00045A1D _MEM_CreateDynspace 
+--- From 'obj\i386\thunk_user32_CallWindowProcA.obj'
+03:00045A60 _user32_CallWindowProcA_Thunk@0 
+03:00045A85 _DirectCall_CallWindowProcA@0  (Idle)
+--- From 'obj\i386\thunk_user32_SetWindowLongA.obj'
+03:00045A8B _user32_SetWindowLongA_Thunk@0 
+03:00045AB0 _DirectCall_SetWindowLongA@0  (Idle)
+--- From 'obj\i386\thunk_user32_GetWindowLongA.obj'
+03:00045AB6 _user32_GetWindowLongA_Thunk@0 
+03:00045ADB _DirectCall_GetWindowLongA@0  (Idle)
+--- From 'obj\i386\thunk_kernel32_GetProcAddress.obj'
+03:00045AE1 _kernel32_GetProcAddress_Thunk@0 
+03:00045B06 _DirectCall_GetProcAddress@0  (Idle)
+--- From 'obj\i386\resolve.obj'
+03:00045B0C _GetOrdinal@20 
+03:00045B89 _ImageEntryToDataC@12 
+03:00045BC3 _strcmpiC@8 
+03:00045BE6 _strncpyC@12 
+--- From 'obj\i386\failure.obj'
+03:00045C25 _GetProcAddressInternal@8 
+--- From 'obj\i386\resolve.obj'
+03:00045C89 _driveandpathC@12 
+03:00045D24 _LoadGodot@0 
+03:00045FE7 _ResolveThunk@20 
+--- From 'obj\i386\failure.obj'
+03:0004613A _GodotFailAddAtomW@4  (Idle)
+03:00046148 _GodotFailBeginUpdateResourceW@8  (Idle)
+03:00046156 _GodotFailBuildCommDCBW@8  (Idle)
+03:00046163 _GodotFailBuildCommDCBAndTimeoutsW@12  (Idle)
+03:00046170 _GodotFailCallNamedPipeW@28  (Idle)
+03:0004617D _GodotFailCommConfigDialogW@12  (Idle)
+03:0004618A _GodotFailCompareStringW@24  (Idle)
+03:00046197 _GodotFailCopyFileW@12  (Idle)
+03:000461A4 _GodotFailCopyFileExW@24  (Idle)
+03:000461B1 _GodotFailCreateDirectoryW@8  (Idle)
+03:000461BE _GodotFailCreateDirectoryExW@12  (Idle)
+03:000461CB _GodotFailCreateEventW@16  (Idle)
+03:000461D9 _GodotFailCreateFileW@28  (Idle)
+03:000461E7 _GodotFailCreateFileMappingW@24  (Idle)
+03:000461F5 _GodotFailCreateMailslotW@16  (Idle)
+03:00046203 _GodotFailCreateMutexW@12  (Idle)
+03:00046211 _GodotFailCreateNamedPipeW@32  (Idle)
+03:0004621F _GodotFailCreateProcessW@40  (Idle)
+03:0004622C _GodotFailCreateSemaphoreW@16  (Idle)
+03:0004623A _GodotFailCreateWaitableTimerW@12  (Idle)
+03:00046248 _GodotFailDeleteFileW@4  (Idle)
+03:00046255 _GodotFailEndUpdateResourceW@8  (Idle)
+03:00046262 _GodotFailEnumCalendarInfoW@16  (Idle)
+03:0004626F _GodotFailEnumCalendarInfoExW@16  (Idle)
+03:0004627C _GodotFailEnumDateFormatsW@12  (Idle)
+03:00046289 _GodotFailEnumDateFormatsExW@12  (Idle)
+03:00046296 _GodotFailEnumSystemCodePagesW@8  (Idle)
+03:000462A3 _GodotFailEnumSystemLocalesW@8  (Idle)
+03:000462B0 _GodotFailEnumTimeFormatsW@12  (Idle)
+03:000462BD _GodotFailExpandEnvironmentStringsW@12  (Idle)
+03:000462CA _GodotFailFatalAppExitW@8  (Idle)
+03:000462D5 _GodotFailFillConsoleOutputCharacterW@20  (Idle)
+03:000462E2 _GodotFailFindAtomW@4  (Idle)
+03:000462F0 _GodotFailFindFirstChangeNotificationW@12  (Idle)
+03:000462FE _GodotFailFindFirstFileW@8  (Idle)
+03:0004630C _GodotFailFindNextFileW@8  (Idle)
+03:00046319 _GodotFailFreeEnvironmentStringsW@4  (Idle)
+03:00046326 _GodotFailFindResourceW@12  (Idle)
+03:0004634F _GodotFailFindResourceExW@16  (Idle)
+03:0004638C _GodotFailFormatMessageW@28  (Idle)
+03:00046399 _GodotFailGetAtomNameW@12  (Idle)
+03:000463A6 _GodotFailGetCalendarInfoW@24  (Idle)
+03:000463B3 _GodotFailGetComputerNameW@8  (Idle)
+03:000463C0 _GodotFailGetConsoleTitleW@8  (Idle)
+03:000463CD _GodotFailGetCPInfo@8  (Idle)
+03:000463F6 _GodotFailGetCPInfoExW@12  (Idle)
+03:00046403 _GodotFailGetCurrencyFormatW@24  (Idle)
+03:00046410 _GodotFailGetCurrentDirectoryW@8  (Idle)
+03:0004641D _GodotFailGetDateFormatW@24  (Idle)
+03:0004642A _GodotFailGetDefaultCommConfigW@12  (Idle)
+03:00046437 _GodotFailGetDiskFreeSpaceW@20  (Idle)
+03:00046444 _GodotFailGetDiskFreeSpaceExW@16  (Idle)
+03:00046451 _GodotFailGetDriveTypeW@4  (Idle)
+03:0004645E _GodotFailGetEnvironmentStringsW@0  (Idle)
+03:00046469 _GodotFailGetEnvironmentVariableW@12  (Idle)
+03:00046476 _GodotFailGetFileAttributesW@4  (Idle)
+03:00046483 _GodotFailGetFileAttributesExW@12  (Idle)
+03:00046490 _GodotFailGetFullPathNameW@16  (Idle)
+03:0004649D _GodotFailGetLocaleInfoW@16  (Idle)
+03:000464AA _GodotFailGetLogicalDriveStringsW@8  (Idle)
+03:000464B7 _GodotFailGetLongPathNameW@12  (Idle)
+03:000464C4 _GodotFailGetModuleFileNameW@12  (Idle)
+03:000464D1 _GodotFailGetModuleHandleW@4  (Idle)
+03:000464DE _GodotFailGetNamedPipeHandleStateW@28  (Idle)
+03:000464EB _GodotFailGetNumberFormatW@24  (Idle)
+03:000464F8 _GodotFailGetPrivateProfileIntW@16  (Idle)
+03:00046505 _GodotFailGetPrivateProfileSectionW@16  (Idle)
+03:00046512 _GodotFailGetPrivateProfileSectionNamesW@12  (Idle)
+03:0004651F _GodotFailGetPrivateProfileStringW@24  (Idle)
+03:0004652C _GodotFailGetPrivateProfileStructW@20  (Idle)
+03:00046539 _GodotFailGetProcAddress@8 
+03:0004653E _GodotFailGetProfileIntW@12  (Idle)
+03:0004654B _GodotFailGetProfileSectionW@12  (Idle)
+03:00046558 _GodotFailGetProfileStringW@20  (Idle)
+03:00046565 _GodotFailGetShortPathNameW@12  (Idle)
+03:00046572 _GodotFailGetStartupInfoW@4  (Idle)
+03:0004657D _GodotFailGetStringTypeW@16  (Idle)
+03:0004658A _GodotFailGetStringTypeExW@20  (Idle)
+03:00046597 _GodotFailGetSystemDirectoryW@8  (Idle)
+03:000465A4 _GodotFailGetSystemWindowsDirectoryW@8  (Idle)
+03:000465B1 _GodotFailGetTempFileNameW@16  (Idle)
+03:000465BE _GodotFailGetTempPathW@8  (Idle)
+03:000465CB _GodotFailGetTimeFormatW@24  (Idle)
+03:000465D8 _GodotFailGetVersionExW@4  (Idle)
+03:000465E5 _GodotFailGetVolumeInformationW@32  (Idle)
+03:000465F2 _GodotFailGetWindowsDirectoryW@8  (Idle)
+03:000465FF _GodotFailGlobalAddAtomW@4  (Idle)
+03:0004660D _GodotFailGlobalFindAtomW@4  (Idle)
+03:0004661B _GodotFailGlobalGetAtomNameW@12  (Idle)
+03:00046628 _GodotFailIsBadStringPtrW@8  (Idle)
+03:00046635 _GodotFailIsValidCodePage@4  (Idle)
+03:0004665E _GodotFailLCMapStringW@24  (Idle)
+03:0004666B _GodotFailLoadLibraryW@4  (Idle)
+03:00046678 _GodotFailLoadLibraryExW@12  (Idle)
+03:00046685 _GodotFaillstrcatW@8  (Idle)
+03:000466AE _GodotFaillstrcmpW@8  (Idle)
+03:000466BB _GodotFaillstrcmpiW@8  (Idle)
+03:000466C8 _GodotFaillstrcpyW@8  (Idle)
+03:000466F1 _GodotFaillstrcpynW@12  (Idle)
+03:000466FE _GodotFaillstrlenW@4  (Idle)
+03:00046727 _GodotFailMoveFileW@8  (Idle)
+03:00046734 _GodotFailMultiByteToWideChar@24  (Idle)
+03:00046762 _GodotFailOpenEventW@12  (Idle)
+03:00046770 _GodotFailOpenFileMappingW@12  (Idle)
+03:0004677E _GodotFailOpenMutexW@12  (Idle)
+03:0004678C _GodotFailOpenSemaphoreW@12  (Idle)
+03:0004679A _GodotFailOpenWaitableTimerW@12  (Idle)
+03:000467A8 _GodotFailOutputDebugStringW@4  (Idle)
+03:000467B3 _GodotFailPeekConsoleInputW@16  (Idle)
+03:000467C0 _GodotFailQueryDosDeviceW@12  (Idle)
+03:000467CD _GodotFailReadConsoleW@20  (Idle)
+03:000467DA _GodotFailReadConsoleInputW@16  (Idle)
+03:000467E7 _GodotFailReadConsoleOutputW@20  (Idle)
+03:000467F4 _GodotFailReadConsoleOutputCharacterW@20  (Idle)
+03:00046801 _GodotFailRemoveDirectoryW@4  (Idle)
+03:0004680E _GodotFailScrollConsoleScreenBufferW@20  (Idle)
+03:0004681B _GodotFailSearchPathW@24  (Idle)
+03:00046828 _GodotFailSetCalendarInfoW@16  (Idle)
+03:00046835 _GodotFailSetComputerNameW@4  (Idle)
+03:00046842 _GodotFailSetConsoleTitleW@4  (Idle)
+03:0004684F _GodotFailSetCurrentDirectoryW@4  (Idle)
+03:0004685C _GodotFailSetDefaultCommConfigW@12  (Idle)
+03:00046869 _GodotFailSetEnvironmentVariableW@8  (Idle)
+03:00046876 _GodotFailSetFileAttributesW@8  (Idle)
+03:00046883 _GodotFailSetLocaleInfoW@12  (Idle)
+03:00046890 _GodotFailSetVolumeLabelW@8  (Idle)
+03:0004689D _GodotFailUpdateResourceW@24  (Idle)
+03:000468AA _GodotFailVerLanguageNameW@12  (Idle)
+03:000468B7 _GodotFailWaitNamedPipeW@8  (Idle)
+03:000468C4 _GodotFailWideCharToMultiByte@32  (Idle)
+03:000468F2 _GodotFailWriteConsoleW@20  (Idle)
+03:000468FF _GodotFailWriteConsoleInputW@16  (Idle)
+03:0004690C _GodotFailWriteConsoleOutputW@20  (Idle)
+03:00046919 _GodotFailWriteConsoleOutputCharacterW@20  (Idle)
+03:00046926 _GodotFailWritePrivateProfileSectionW@12  (Idle)
+03:00046933 _GodotFailWritePrivateProfileStringW@16  (Idle)
+03:00046940 _GodotFailWritePrivateProfileStructW@20  (Idle)
+03:0004694D _GodotFailWriteProfileSectionW@8  (Idle)
+03:0004695A _GodotFailWriteProfileStringW@12  (Idle)
+03:00046967 _GodotFailAppendMenuW@16  (Idle)
+03:00046974 _GodotFailBroadcastSystemMessageW@20  (Idle)
+03:00046982 _GodotFailCallMsgFilterW@8  (Idle)
+03:0004698F _GodotFailCallWindowProcA@20 
+03:0004699C _GodotFailCallWindowProcW@20  (Idle)
+03:000469A9 _GodotFailCopyAcceleratorTableW@12  (Idle)
+03:000469B6 _GodotFailCreateAcceleratorTableW@8  (Idle)
+03:000469C3 _GodotFailCreateDialogIndirectParamW@20  (Idle)
+03:000469D0 _GodotFailCreateDialogParamW@20  (Idle)
+03:000469DD _GodotFailCreateMDIWindowW@40  (Idle)
+03:000469EA _GodotFailCreateWindowExW@48  (Idle)
+03:000469F7 _GodotFailChangeDisplaySettingsW@8  (Idle)
+03:00046A05 _GodotFailChangeDisplaySettingsExW@20  (Idle)
+03:00046A13 _GodotFailChangeMenuW@20  (Idle)
+03:00046A20 _GodotFailCharLowerW@4  (Idle)
+03:00046A2D _GodotFailCharLowerBuffW@8  (Idle)
+03:00046A3A _GodotFailCharNextW@4  (Idle)
+03:00046A4A _GodotFailCharPrevW@8  (Idle)
+03:00046A57 _GodotFailCharToOemW@8  (Idle)
+03:00046A64 _GodotFailCharToOemBuffW@12  (Idle)
+03:00046A71 _GodotFailCharUpperW@4  (Idle)
+03:00046A7E _GodotFailCharUpperBuffW@8  (Idle)
+03:00046A8B _GodotFailDdeConnect@16  (Idle)
+03:00046AB4 _GodotFailDdeConnectList@20  (Idle)
+03:00046AE2 _GodotFailDdeCreateStringHandleW@12  (Idle)
+03:00046AEF _GodotFailDdeInitializeW@16  (Idle)
+03:00046AFC _GodotFailDdeQueryConvInfo@12  (Idle)
+03:00046B25 _GodotFailDdeQueryStringW@20  (Idle)
+03:00046B32 _GodotFailDefDlgProcW@16  (Idle)
+03:00046B3F _GodotFailDefFrameProcW@20  (Idle)
+03:00046B4C _GodotFailDefMDIChildProcW@16  (Idle)
+03:00046B59 _GodotFailDefWindowProcW@16  (Idle)
+03:00046B66 _GodotFailDialogBoxIndirectParamW@20  (Idle)
+03:00046B73 _GodotFailDialogBoxParamW@20  (Idle)
+03:00046B80 _GodotFailDispatchMessageW@4  (Idle)
+03:00046B8D _GodotFailDlgDirListW@20  (Idle)
+03:00046B9A _GodotFailDlgDirListComboBoxW@20  (Idle)
+03:00046BA7 _GodotFailDlgDirSelectComboBoxExW@16  (Idle)
+03:00046BB4 _GodotFailDlgDirSelectExW@16  (Idle)
+03:00046BC1 _GodotFailDrawStateW@40  (Idle)
+03:00046BCE _GodotFailDrawTextW@20  (Idle)
+03:00046BDB _GodotFailDrawTextExW@24  (Idle)
+03:00046BE8 _GodotFailEnumClipboardFormats@4  (Idle)
+03:00046C11 _GodotFailEnumDisplayDevicesW@16  (Idle)
+03:00046C1E _GodotFailEnumDisplaySettingsW@12  (Idle)
+03:00046C2B _GodotFailEnumDisplaySettingsExW@16  (Idle)
+03:00046C38 _GodotFailEnumPropsA@8  (Idle)
+03:00046C62 _GodotFailEnumPropsW@8  (Idle)
+03:00046C6F _GodotFailEnumPropsExA@12  (Idle)
+03:00046C99 _GodotFailEnumPropsExW@12  (Idle)
+03:00046CA6 _GodotFailEnableWindow@8  (Idle)
+03:00046CCF _GodotFailFindWindowW@8  (Idle)
+03:00046CDC _GodotFailFindWindowExW@16  (Idle)
+03:00046CE9 _GodotFailGetAltTabInfoW@20  (Idle)
+03:00046CF6 _GodotFailGetClassInfoW@12  (Idle)
+03:00046D03 _GodotFailGetClassInfoExW@12  (Idle)
+03:00046D10 _GodotFailGetClassLongW@8  (Idle)
+03:00046D1D _GodotFailGetClassNameW@12  (Idle)
+03:00046D2A _GodotFailGetClipboardData@4  (Idle)
+03:00046D53 _GodotFailGetClipboardFormatNameW@12  (Idle)
+03:00046D60 _GodotFailGetDlgItemTextW@16  (Idle)
+03:00046D6D _GodotFailGetKeyboardLayoutNameW@4  (Idle)
+03:00046D7A _GodotFailGetKeyNameTextW@12  (Idle)
+03:00046D87 _GodotFailGetMenuItemInfoW@16  (Idle)
+03:00046D94 _GodotFailGetMenuStringW@20  (Idle)
+03:00046DA1 _GodotFailGetMessageW@16  (Idle)
+03:00046DAE _GodotFailGetMonitorInfoW@8  (Idle)
+03:00046DBB _GodotFailGetPropA@8  (Idle)
+03:00046DE4 _GodotFailGetPropW@8  (Idle)
+03:00046DF2 _GodotFailGetTabbedTextExtentW@20  (Idle)
+03:00046DFF _GodotFailGetWindowLongA@8 
+03:00046E28 _GodotFailGetWindowLongW@8  (Idle)
+03:00046E35 _GodotFailGetWindowModuleFileNameW@12  (Idle)
+03:00046E42 _GodotFailGetWindowTextW@12  (Idle)
+03:00046E4F _GodotFailGetWindowTextLengthW@4  (Idle)
+03:00046E5C _GodotFailGrayStringW@36  (Idle)
+03:00046E69 _GodotFailInsertMenuW@20  (Idle)
+03:00046E76 _GodotFailInsertMenuItemW@16  (Idle)
+03:00046E83 _GodotFailIsCharAlphaW@4  (Idle)
+03:00046E90 _GodotFailIsCharAlphaNumericW@4  (Idle)
+03:00046E9D _GodotFailIsCharLowerW@4  (Idle)
+03:00046EAA _GodotFailIsCharUpperW@4  (Idle)
+03:00046EB7 _GodotFailIsClipboardFormatAvailable@4  (Idle)
+03:00046EE0 _GodotFailIsDialogMessageW@8  (Idle)
+03:00046EED _GodotFailIsWindowUnicode@4  (Idle)
+03:00046F16 _GodotFailLoadAcceleratorsW@8  (Idle)
+03:00046F23 _GodotFailLoadBitmapW@8  (Idle)
+03:00046F30 _GodotFailLoadCursorW@8  (Idle)
+03:00046F3D _GodotFailLoadCursorFromFileW@4  (Idle)
+03:00046F4A _GodotFailLoadIconW@8  (Idle)
+03:00046F57 _GodotFailLoadImageW@24  (Idle)
+03:00046F65 _GodotFailLoadKeyboardLayoutW@8  (Idle)
+03:00046F72 _GodotFailLoadMenuW@8  (Idle)
+03:00046F7F _GodotFailLoadMenuIndirectW@4  (Idle)
+03:00046F8C _GodotFailLoadStringW@16  (Idle)
+03:00046F99 _GodotFailMapVirtualKeyW@8  (Idle)
+03:00046FA6 _GodotFailMapVirtualKeyExW@12  (Idle)
+03:00046FB3 _GodotFailMessageBoxW@16  (Idle)
+03:00046FDC _GodotFailMessageBoxExW@20  (Idle)
+03:0004701C _GodotFailMessageBoxIndirectW@4  (Idle)
+03:00047029 _GodotFailModifyMenuW@20  (Idle)
+03:00047036 _GodotFailOemToCharW@8  (Idle)
+03:00047043 _GodotFailOemToCharBuffW@12  (Idle)
+03:00047050 _GodotFailPeekMessageW@20  (Idle)
+03:0004705D _GodotFailPostMessageW@16  (Idle)
+03:0004706A _GodotFailPostThreadMessageW@16  (Idle)
+03:00047077 _GodotFailRegisterClassW@4  (Idle)
+03:00047085 _GodotFailRegisterClassExW@4  (Idle)
+03:00047093 _GodotFailRegisterClipboardFormatW@4  (Idle)
+03:000470A0 _GodotFailRegisterDeviceNotificationW@12  (Idle)
+03:000470AD _GodotFailRegisterWindowMessageW@4  (Idle)
+03:000470BA _GodotFailRemovePropA@8  (Idle)
+03:000470E3 _GodotFailRemovePropW@8  (Idle)
+03:000470F1 _GodotFailSendDlgItemMessageW@20  (Idle)
+03:000470FE _GodotFailSendMessageW@16  (Idle)
+03:0004710B _GodotFailSendMessageCallbackW@24  (Idle)
+03:00047118 _GodotFailSendMessageTimeoutW@28  (Idle)
+03:00047125 _GodotFailSendNotifyMessageW@16  (Idle)
+03:00047132 _GodotFailSetClassLongW@12  (Idle)
+03:0004713F _GodotFailSetDlgItemTextW@12  (Idle)
+03:0004714C _GodotFailSetMenuItemInfoW@16  (Idle)
+03:00047159 _GodotFailSetPropA@12  (Idle)
+03:00047182 _GodotFailSetPropW@12  (Idle)
+03:0004718F _GodotFailSetWindowLongA@12 
+03:000471B8 _GodotFailSetWindowLongW@12  (Idle)
+03:000471C5 _GodotFailSetWindowsHookW@8  (Idle)
+03:000471D2 _GodotFailSetWindowsHookExW@16  (Idle)
+03:000471DF _GodotFailSetWindowTextW@8  (Idle)
+03:000471EC _GodotFailSystemParametersInfoW@16  (Idle)
+03:000471F9 _GodotFailTranslateAcceleratorW@12  (Idle)
+03:00047206 _GodotFailTabbedTextOutW@32  (Idle)
+03:00047213 _GodotFailUnregisterClassW@8  (Idle)
+03:00047220 _GodotFailVkKeyScanW@4  (Idle)
+03:0004722E _GodotFailVkKeyScanExW@8  (Idle)
+03:0004723C _GodotFailWinHelpW@16  (Idle)
+03:00047249 _GodotFailwsprintfW  (Idle)
+03:00047255 _GodotFailwvsprintfW@12  (Idle)
+03:00047263 _GodotFailAddFontResourceW@4  (Idle)
+03:00047270 _GodotFailCopyEnhMetaFileW@8  (Idle)
+03:0004727D _GodotFailCopyMetaFileW@8  (Idle)
+03:0004728A _GodotFailCreateColorSpaceW@4  (Idle)
+03:00047297 _GodotFailCreateDCW@16  (Idle)
+03:000472A4 _GodotFailCreateEnhMetaFileW@16  (Idle)
+03:000472B1 _GodotFailCreateFontW@56  (Idle)
+03:000472BE _GodotFailCreateFontIndirectW@4  (Idle)
+03:000472CB _GodotFailCreateICW@16  (Idle)
+03:000472D8 _GodotFailCreateMetaFileW@4  (Idle)
+03:000472E5 _GodotFailCreateScalableFontResourceW@16  (Idle)
+03:000472F2 _GodotFailEnumFontFamiliesW@16  (Idle)
+03:000472FF _GodotFailEnumFontFamiliesExW@20  (Idle)
+03:0004730C _GodotFailEnumFontsW@16  (Idle)
+03:00047319 _GodotFailEnumICMProfilesW@12  (Idle)
+03:00047326 _GodotFailExtTextOutW@32  (Idle)
+03:00047354 _GodotFailGetCharABCWidthsW@16  (Idle)
+03:00047361 _GodotFailGetCharABCWidthsFloatW@16  (Idle)
+03:0004736E _GodotFailGetCharWidthW@16  (Idle)
+03:00047397 _GodotFailGetCharWidthFloatW@16  (Idle)
+03:000473A4 _GodotFailGetCharacterPlacementW@24  (Idle)
+03:000473B1 _GodotFailGetEnhMetaFileW@4  (Idle)
+03:000473BE _GodotFailGetEnhMetaFileDescriptionW@12  (Idle)
+03:000473CB _GodotFailGetGlyphOutlineW@28  (Idle)
+03:000473D8 _GodotFailGetICMProfileW@12  (Idle)
+03:000473E5 _GodotFailGetKerningPairsW@12  (Idle)
+03:000473F2 _GodotFailGetLogColorSpaceW@12  (Idle)
+03:000473FF _GodotFailGetMetaFileW@4  (Idle)
+03:0004740C _GodotFailGetObjectW@12  (Idle)
+03:00047419 _GodotFailGetOutlineTextMetricsW@12  (Idle)
+03:00047426 _GodotFailGetTextExtentExPointW@28  (Idle)
+03:00047433 _GodotFailGetTextExtentPointW@16  (Idle)
+03:0004745C _GodotFailGetTextExtentPoint32W@16  (Idle)
+03:00047485 _GodotFailGetTextFaceW@12  (Idle)
+03:00047492 _GodotFailGetTextMetricsW@8  (Idle)
+03:0004749F _GodotFailPolyTextOutW@12  (Idle)
+03:000474AC _GodotFailRemoveFontResourceW@4  (Idle)
+03:000474B9 _GodotFailResetDCW@8  (Idle)
+03:000474C6 _GodotFailSetICMProfileW@8  (Idle)
+03:000474D3 _GodotFailStartDocW@8  (Idle)
+03:000474E0 _GodotFailTextOutW@20  (Idle)
+03:0004750E _GodotFailUpdateICMRegKeyW@16  (Idle)
+03:0004751B _GodotFailGetCurrentHwProfileW@4  (Idle)
+03:00047528 _GodotFailGetUserNameW@8  (Idle)
+03:00047535 _GodotFailIsTextUnicode@12  (Idle)
+03:00047542 _GodotFailRegConnectRegistryW@12  (Idle)
+03:00047548 _GodotFailRegCreateKeyW@12  (Idle)
+03:0004754E _GodotFailRegCreateKeyExW@36  (Idle)
+03:00047554 _GodotFailRegDeleteKeyW@8  (Idle)
+03:0004755A _GodotFailRegDeleteValueW@8  (Idle)
+03:00047560 _GodotFailRegEnumKeyW@16  (Idle)
+03:00047566 _GodotFailRegEnumKeyExW@32  (Idle)
+03:0004756C _GodotFailRegEnumValueW@32  (Idle)
+03:00047572 _GodotFailRegLoadKeyW@12  (Idle)
+03:00047578 _GodotFailRegOpenKeyW@12  (Idle)
+03:0004757E _GodotFailRegOpenKeyExW@20  (Idle)
+03:00047584 _GodotFailRegQueryInfoKeyW@48  (Idle)
+03:0004758A _GodotFailRegQueryMultipleValuesW@20  (Idle)
+03:00047590 _GodotFailRegQueryValueW@16  (Idle)
+03:00047596 _GodotFailRegQueryValueExW@24  (Idle)
+03:0004759C _GodotFailRegReplaceKeyW@16  (Idle)
+03:000475A2 _GodotFailRegSaveKeyW@12  (Idle)
+03:000475A8 _GodotFailRegSetValueW@20  (Idle)
+03:000475AE _GodotFailRegSetValueExW@24  (Idle)
+03:000475B4 _GodotFailRegUnLoadKeyW@8  (Idle)
+03:000475BA _GodotFailRasConnectionNotificationW@12  (Idle)
+03:000475C7 _GodotFailRasCreatePhonebookEntryW@8  (Idle)
+03:000475D4 _GodotFailRasDeleteEntryW@8  (Idle)
+03:000475E1 _GodotFailRasDeleteSubEntryW@12  (Idle)
+03:000475EE _GodotFailRasDialW@24  (Idle)
+03:000475FB _GodotFailRasEditPhonebookEntryW@12  (Idle)
+03:00047608 _GodotFailRasEnumConnectionsW@12  (Idle)
+03:00047615 _GodotFailRasEnumDevicesW@12  (Idle)
+03:00047622 _GodotFailRasEnumEntriesW@20  (Idle)
+03:0004762F _GodotFailRasGetConnectStatusW@8  (Idle)
+03:0004763C _GodotFailRasGetEntryDialParamsW@12  (Idle)
+03:00047649 _GodotFailRasGetEntryPropertiesW@24  (Idle)
+03:00047656 _GodotFailRasGetErrorStringW@12  (Idle)
+03:00047663 _GodotFailRasHangUpW@4  (Idle)
+03:00047670 _GodotFailRasRenameEntryW@12  (Idle)
+03:0004767D _GodotFailRasSetEntryDialParamsW@12  (Idle)
+03:0004768A _GodotFailRasSetEntryPropertiesW@24  (Idle)
+03:00047697 _GodotFailRasSetSubEntryPropertiesW@28  (Idle)
+03:000476A4 _GodotFailRasValidateEntryNameW@8  (Idle)
+03:000476B1 _GodotFailMultinetGetConnectionPerformanceW@8  (Idle)
+03:000476BE _GodotFailWNetAddConnectionW@12  (Idle)
+03:000476CB _GodotFailWNetAddConnection2W@16  (Idle)
+03:000476D8 _GodotFailWNetAddConnection3W@20  (Idle)
+03:000476E5 _GodotFailWNetCancelConnectionW@8  (Idle)
+03:000476F2 _GodotFailWNetCancelConnection2W@12  (Idle)
+03:000476FF _GodotFailWNetConnectionDialog1W@4  (Idle)
+03:0004770C _GodotFailWNetDisconnectDialog1W@4  (Idle)
+03:00047719 _GodotFailWNetEnumResourceW@16  (Idle)
+03:00047726 _GodotFailWNetGetConnectionW@12  (Idle)
+03:00047733 _GodotFailWNetGetLastErrorW@20  (Idle)
+03:00047740 _GodotFailWNetGetNetworkInformationW@8  (Idle)
+03:0004774D _GodotFailWNetGetProviderNameW@12  (Idle)
+03:0004775A _GodotFailWNetGetResourceInformationW@16  (Idle)
+03:00047767 _GodotFailWNetGetResourceParentW@12  (Idle)
+03:00047774 _GodotFailWNetGetUniversalNameW@16  (Idle)
+03:00047781 _GodotFailWNetGetUserW@12  (Idle)
+03:0004778E _GodotFailWNetOpenEnumW@20  (Idle)
+03:0004779B _GodotFailWNetUseConnectionW@32  (Idle)
+03:000477A8 _GodotFailChooseColorW@4  (Idle)
+03:000477B5 _GodotFailChooseFontW@4  (Idle)
+03:000477C2 _GodotFailFindTextW@4  (Idle)
+03:000477CF _GodotFailGetFileTitleW@12  (Idle)
+03:000477DD _GodotFailGetOpenFileNameW@4  (Idle)
+03:000477EA _GodotFailGetSaveFileNameW@4  (Idle)
+03:000477F7 _GodotFailPageSetupDlgW@4  (Idle)
+03:00047804 _GodotFailPrintDlgW@4  (Idle)
+03:00047811 _GodotFailReplaceTextW@4  (Idle)
+03:0004781E _GodotFailGetFileVersionInfoW@16  (Idle)
+03:0004782B _GodotFailGetFileVersionInfoSizeW@8  (Idle)
+03:00047838 _GodotFailVerFindFileW@32  (Idle)
+03:00047845 _GodotFailVerInstallFileW@32  (Idle)
+03:00047852 _GodotFailVerQueryValueW@16  (Idle)
+03:0004785F _GodotFailDragQueryFileW@16  (Idle)
+03:0004786C _GodotFailExtractIconW@12  (Idle)
+03:00047879 _GodotFailExtractIconExW@20  (Idle)
+03:00047886 _GodotFailFindExecutableW@12  (Idle)
+03:00047893 _GodotFailShellAboutW@16  (Idle)
+03:000478A0 _GodotFailShellExecuteW@24  (Idle)
+03:000478AD _GodotFailShellExecuteExW@4  (Idle)
+03:000478BA _GodotFailShell_NotifyIconW@8  (Idle)
+03:000478C7 _GodotFailSHBrowseForFolderW@4  (Idle)
+03:000478D4 _GodotFailSHChangeNotify@16  (Idle)
+03:000478FB _GodotFailSHFileOperationW@4  (Idle)
+03:00047908 _GodotFailSHGetFileInfoW@20  (Idle)
+03:00047915 _GodotFailSHGetNewLinkInfoW@20  (Idle)
+03:00047922 _GodotFailSHGetPathFromIDListW@8  (Idle)
+03:0004792F _GodotFailAddJobW@20  (Idle)
+03:0004793C _GodotFailAddMonitorW@12  (Idle)
+03:00047949 _GodotFailAddPortW@12  (Idle)
+03:00047956 _GodotFailAddPrinterW@12  (Idle)
+03:00047964 _GodotFailAddPrinterDriverW@12  (Idle)
+03:00047971 _GodotFailAddPrintProcessorW@16  (Idle)
+03:0004797E _GodotFailAddPrintProvidorW@12  (Idle)
+03:0004798B _GodotFailAdvancedDocumentPropertiesW@20  (Idle)
+03:00047998 _GodotFailConfigurePortW@12  (Idle)
+03:000479A5 _GodotFailDeleteMonitorW@12  (Idle)
+03:000479B2 _GodotFailDeletePortW@12  (Idle)
+03:000479BF _GodotFailDeletePrinterDriverW@12  (Idle)
+03:000479CC _GodotFailDeletePrintProcessorW@12  (Idle)
+03:000479D9 _GodotFailDeletePrintProvidorW@12  (Idle)
+03:000479E6 _GodotFailDeviceCapabilitiesW@20  (Idle)
+03:000479F3 _GodotFailDocumentPropertiesW@24  (Idle)
+03:00047A00 _GodotFailEnumMonitorsW@24  (Idle)
+03:00047A0D _GodotFailEnumPortsW@24  (Idle)
+03:00047A1A _GodotFailEnumPrinterDriversW@28  (Idle)
+03:00047A27 _GodotFailEnumPrintersW@28  (Idle)
+03:00047A34 _GodotFailEnumPrintProcessorDatatypesW@28  (Idle)
+03:00047A41 _GodotFailEnumPrintProcessorsW@28  (Idle)
+03:00047A4E _GodotFailGetJobW@24  (Idle)
+03:00047A5B _GodotFailGetPrinterW@20  (Idle)
+03:00047A68 _GodotFailGetPrinterDataW@24  (Idle)
+03:00047A75 _GodotFailGetPrinterDriverW@24  (Idle)
+03:00047A82 _GodotFailGetPrinterDriverDirectoryW@24  (Idle)
+03:00047A8F _GodotFailGetPrintProcessorDirectoryW@24  (Idle)
+03:00047A9C _GodotFailOpenPrinterW@12  (Idle)
+03:00047AA9 _GodotFailResetPrinterW@8  (Idle)
+03:00047AB6 _GodotFailSetJobW@20  (Idle)
+03:00047AC3 _GodotFailSetPrinterW@16  (Idle)
+03:00047AD0 _GodotFailSetPrinterDataW@20  (Idle)
+03:00047ADD _GodotFailStartDocPrinterW@12  (Idle)
+03:00047AEA _GodotFailIsDestinationReachableW@8  (Idle)
+03:00047AF7 _GodotFailOleUIAddVerbMenuW@36  (Idle)
+03:00047B04 _GodotFailOleUIBusyW@4  (Idle)
+03:00047B11 _GodotFailOleUIChangeIconW@4  (Idle)
+03:00047B1E _GodotFailOleUIChangeSourceW@4  (Idle)
+03:00047B2B _GodotFailOleUIConvertW@4  (Idle)
+03:00047B38 _GodotFailOleUIEditLinksW@4  (Idle)
+03:00047B45 _GodotFailOleUIInsertObjectW@4  (Idle)
+03:00047B52 _GodotFailOleUIObjectPropertiesW@4  (Idle)
+03:00047B5F _GodotFailOleUIPasteSpecialW@4  (Idle)
+03:00047B6C _GodotFailOleUIPromptUserW  (Idle)
+03:00047B77 _GodotFailOleUIUpdateLinksW@16  (Idle)
+03:00047B84 _GodotFailcapCreateCaptureWindowW@32  (Idle)
+03:00047B91 _GodotFailcapGetDriverDescriptionW@20  (Idle)
+03:00047B9E _GodotFailCreateStdAccessibleProxyW@20  (Idle)
+03:00047BAE _GodotFailGetRoleTextW@12  (Idle)
+03:00047BBB _GodotFailGetStateTextW@12  (Idle)
+03:00047BC8 _GodotFailPlaySoundW@12  (Idle)
+03:00047BD5 _GodotFailauxGetDevCapsW@12  (Idle)
+03:00047BE2 _GodotFailjoyGetDevCapsW@12  (Idle)
+03:00047BEF _GodotFailmciGetDeviceIDW@4  (Idle)
+03:00047BFC _GodotFailmciGetErrorStringW@12  (Idle)
+03:00047C09 _GodotFailmciSendCommandW@16  (Idle)
+03:00047C16 _GodotFailmciSendStringW@16  (Idle)
+03:00047C23 _GodotFailmidiInGetDevCapsW@12  (Idle)
+03:00047C30 _GodotFailmidiInGetErrorTextW@12  (Idle)
+03:00047C3D _GodotFailmidiOutGetDevCapsW@12  (Idle)
+03:00047C4A _GodotFailmidiOutGetErrorTextW@12  (Idle)
+03:00047C57 _GodotFailmixerGetControlDetailsW@12  (Idle)
+03:00047C64 _GodotFailmixerGetDevCapsW@12  (Idle)
+03:00047C71 _GodotFailmixerGetLineControlsW@12  (Idle)
+03:00047C7E _GodotFailmixerGetLineInfoW@12  (Idle)
+03:00047C8B _GodotFailmmioInstallIOProcW@12  (Idle)
+03:00047C98 _GodotFailmmioOpenW@12  (Idle)
+03:00047CA5 _GodotFailmmioRenameW@16  (Idle)
+03:00047CB2 _GodotFailmmioStringToFOURCCW@8  (Idle)
+03:00047CBF _GodotFailsndPlaySoundW@8  (Idle)
+03:00047CCC _GodotFailwaveInGetDevCapsW@12  (Idle)
+03:00047CD9 _GodotFailwaveInGetErrorTextW@12  (Idle)
+03:00047CE6 _GodotFailwaveOutGetDevCapsW@12  (Idle)
+03:00047CF3 _GodotFailwaveOutGetErrorTextW@12  (Idle)
+03:00047D00 _GodotFailAcquireCredentialsHandleW@36  (Idle)
+03:00047D10 _GodotFailEnumerateSecurityPackagesW@8  (Idle)
+03:00047D20 _GodotFreeContextBuffer@4  (Idle)
+03:00047D44 _GodotFailInitSecurityInterfaceW@0  (Idle)
+03:00047D4F _GodotFailInitializeSecurityContextW@48  (Idle)
+03:00047D5F _GodotFailQueryContextAttributesW@12  (Idle)
+03:00047D6F _GodotFailQueryCredentialsAttributesW@12  (Idle)
+03:00047D7F _GodotFailQuerySecurityPackageInfoW@8  (Idle)
+03:00047D8F _GodotFailGetOpenFileNamePreviewW@4  (Idle)
+03:00047D9C _GodotFailGetSaveFileNamePreviewW@4  (Idle)
+03:00047DA9 _GodotFailMCIWndCreateW  (Idle)
+030000:017DB4 0002EC   RUNUNIFY_TEXT::CODE::<no group> F=4
+--- From 'rununify.obj'
+03:00047DB4 _RUN_allocrefterm_si  (Idle)
+03:00047DF8 _RUN_allocrefterm_di  (Idle)
+03:00047E04 _RUN_allocrefterm_ax  (Idle)
+03:00047E10 _RUN_allocrefterm_bx  (Idle)
+03:00047E1C _RUN_allocrefterm_cx  (Idle)
+03:00047E28 _RUN_allocrefterm_dx  (Idle)
+03:00047E34 _RUN_allocref_di  (Idle)
+03:00047E48 _RUN_allocref_si  (Idle)
+03:00047E5C _RUN_allocref_ax  (Idle)
+03:00047E70 _RUN_allocref_bx  (Idle)
+03:00047E84 _RUN_allocref_cx  (Idle)
+03:00047E98 _RUN_allocref_dx  (Idle)
+03:00047EAC _RUN_coerse_di  (Idle)
+03:00047EC0 _RUN_coerse_si  (Idle)
+03:00047ED4 _RUN_coerse_ax  (Idle)
+03:00047EE8 _RUN_coerse_bx  (Idle)
+03:00047EFC _RUN_coerse_cx  (Idle)
+03:00047F10 _RUN_coerse_dx  (Idle)
+03:00047F24 _RUN_trail_di  (Idle)
+03:00047F8C _RUN_trail_si  (Idle)
+03:00047F98 _RUN_trail_ax  (Idle)
+03:00047FA4 _RUN_trail_bx  (Idle)
+03:00047FB0 _RUN_trail_cx  (Idle)
+03:00047FBC _RUN_trail_dx  (Idle)
+03:00047FC8 _RUN_trail_ptr  (Idle)
+03:00047FD4 _RUN_Unify  (Idle)
+030000:0180A0 0001F4   PFPMATH_TEXT::CODE::<no group> F=4
+--- From 'pfpmath.obj'
+03:000480A0 _PFP_GetTypeArgument 
+03:000480C2 _PFP_FInit 
+03:000480C7 _PFP_GetControlWord 
+03:000480D6 _PFP_GetStatusWord 
+03:000480DA _PFP_SetControlWord 
+03:000480E3 _PFP_GetExponent 
+03:00048114 _PFP_MakeRange 
+03:00048131 _PFP_CalcSin 
+03:00048138 _PFP_CalcCos 
+03:0004813F _PFP_CalcTan 
+03:0004816C _PFP_CalcArcTan 
+03:00048175 _PFP_CalcSqrtFunction 
+03:0004817C _PFP_CalcLog10 
+03:00048187 _PFP_CalcLn 
+03:00048192 _PFP_CalcExpFunction 
+03:000481B2 _PFP_CalcRound 
+03:000481B9 _PFP_GetLog2_E 
+03:000481BC _PFP_GetLog2_10 
+03:000481BF _PFP_GetLog10_2  (Idle)
+03:000481C2 _PFP_CalcFloatToLong 
+03:000481D3 _PFP_DoubleToBCD  (Idle)
+03:000481E3 _PFP_CheckInteger  (Idle)
+03:0004820E _PFP_ClearExceptionFlags 
+03:0004821E _PFP_ClearFPUStack 
+03:00048237 __fuistq 
+03:0004825C __qdiv10 
+03:00048282 __fxam 
+030000:018294 000008   RNTCFCI_TEXT::CODE::<no group> F=4
+--- From 'rntcfci.obj'
+03:00048294 _RNT_InitEndData 
+030000:01829C 000018   STRSTRLEN_TEXT::CODE::<no group> F=4
+--- From 'strucat.obj'
+03:0004829C _STR_StrLen 
+030000:0182B4 000378   RUNBTRAK_TEXT::CODE::<no group> F=4
+--- From 'runbtrak.obj'
+03:000482B4 _RUN_stkb1 
+03:000482DC _RUN_stkb2 
+03:00048304 _RUN_stkb3 
+03:0004832C _RUN_stktrap 
+--- From 'runinit.obj'
+03:00048354 _RUN_StackBTrack 
+--- From 'runbtrak.obj'
+03:00048360 _RUN_StackBTrack3@4  (Idle)
+--- From 'dbmain.obj'
+03:00048398 _RUN_StackTrap 
+--- From 'runbtrak.obj'
+03:000483D8 _RUN_JmpReturn  (Idle)
+--- From 'rntconv.obj'
+03:000483E4 _RUN_JmpReturn1 
+--- From 'fnmsrch.obj'
+03:000483F0 _RUN_Fail 
+--- From 'runbtrak.obj'
+03:00048448 _RUN_True  (Idle)
+--- From 'rntretr6.obj'
+03:0004844C _RUN_ChkRetract 
+--- From 'runbtrak.obj'
+03:00048490 _RUN_ChkTrail  (Idle)
+03:000484D4 _RUN_Cut_ 
+03:00048508 _RUN_Cut  (Idle)
+--- From 'dbmain.obj'
+03:00048558 _RUN_RemoveTrap 
+--- From 'runbtrak.obj'
+03:00048598 _RUN_BTop_o  (Idle)
+03:000485A4 _RUN_BTop_i  (Idle)
+03:000485E4 _RUN_get_trailsize  (Idle)
+03:000485F0 _RUN_BPoints  (Idle)
+03:00048614 _RUN_Cursor 
+030000:01862C 000008   RUNSTK_TEXT::CODE::<no group> F=4
+--- From 'dbmain.obj'
+03:0004862C _RUN_GetSP 
+030000:018634 000124   MEMSIDI_TEXT::CODE::<no group> F=4
+--- From 'rununify.obj'
+03:00048634 _MEM_alloc_ax 
+03:00048664 _MEM_alloc_bx 
+03:00048694 _MEM_alloc_cx 
+03:000486C4 _MEM_alloc_dx 
+03:000486F8 _MEM_alloc_si 
+03:00048728 _MEM_alloc_di 
+Frame 050000   Size 000860.  Name=<    .bss>, 	Chars=C0000080h. [URW]
+050000:000000 000858   *** Comm1 ***::BSS::<no group> F=0
+--- From 'D:\VIP\Lib\Win32\MSC\Easywin.obj'
+04:00050000 _INIT_hInstance 
+--- From 'meminit.obj'
+04:00050004 __MEM_Granularity 
+04:00050008 __MEM_PageSize 
+--- From 'memobj.obj'
+04:0005000C _ERR_Cursor 
+--- From 'runinit.obj'
+04:00050010 __MEM_DecommitSize 
+04:00050014 __MEM_SysBlockSize 
+04:00050018 _RUN_ApplicationName 
+--- From 'osinit.obj'
+04:00050118 _OS_Ver 
+--- From 'errputms.obj'
+04:0005011C _ERR_SaveCursor 
+--- From 'errinit.obj'
+04:00050120 _ERR_String 
+--- From 'mem_prof.obj'
+04:00050520 _array 
+--- From 'rntinit.obj'
+04:00050840 _RNT_Counter 
+--- From 'obj\i386\thunk_user32_CallWindowProcA.obj'
+04:00050844 _Unicows_CallWindowProcA 
+--- From 'obj\i386\thunk_user32_SetWindowLongA.obj'
+04:00050848 _Unicows_SetWindowLongA 
+--- From 'obj\i386\thunk_user32_GetWindowLongA.obj'
+04:0005084C _Unicows_GetWindowLongA 
+--- From 'obj\i386\thunk_kernel32_GetProcAddress.obj'
+04:00050850 _Unicows_GetProcAddress 
+--- From 'obj\i386\resolve.obj'
+04:00050854 __PfnLoadUnicows 
+--- Total Cnt   =  1279 --------
+[import] 'osabort.obj' USER32.dll. __imp__GetLastActivePopup@4 
+[import] 'errputms.obj' USER32.dll. __imp__GetActiveWindow@0 
+[import] 'osabort.obj' KERNEL32.dll. __imp__ExitProcess@4 
+[import] 'osabort.obj' KERNEL32.dll. __imp__GetStdHandle@4 
+[import] 'osseekrd.obj' KERNEL32.dll. __imp__ReadFile@20 
+[import] 'osrdbin.obj' KERNEL32.dll. __imp__GetFileType@4 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__DefWindowProcA@16 
+[import] 'osrdbin.obj' KERNEL32.dll. __imp__Sleep@4 
+[import] 'erracces.obj' KERNEL32.dll. __imp__FormatMessageA@28 
+[import] 'D:\VIP\Vpi\Lib\Win32\MSC\Init32.obj' KERNEL32.dll. _ExitProcess@4 
+[import] 'osabort.obj' KERNEL32.dll. __imp__OutputDebugStringA@4 
+[import] 'runexcpt.obj' KERNEL32.dll. __imp__SetUnhandledExceptionFilter@4 
+[import] 'runexcpt.obj' KERNEL32.dll. __imp__VirtualProtect@16 
+[import] 'osflush.obj' KERNEL32.dll. __imp__FlushFileBuffers@4 
+[import] 'osabort.obj' KERNEL32.dll. __imp__GetConsoleMode@8 
+[import] 'osabort.obj' KERNEL32.dll. __imp__ReadConsoleInputA@16 
+[import] 'erracces.obj' KERNEL32.dll. __imp__LocalFree@4 
+[import] 'runexcpt.obj' KERNEL32.dll. __imp__SetConsoleCtrlHandler@8 
+[import] 'osabort.obj' KERNEL32.dll. __imp__SetConsoleMode@8 
+[import] 'osthread.obj' KERNEL32.dll. __imp__LeaveCriticalSection@4 
+[import] 'obj\i386\resolve.obj' KERNEL32.dll. __imp__GetSystemDirectoryA@8 
+[import] 'obj\i386\resolve.obj' KERNEL32.dll. __imp__GetWindowsDirectoryA@8 
+[import] 'obj\i386\resolve.obj' KERNEL32.dll. __imp__FlushInstructionCache@12 
+[import] 'obj\i386\failure.obj' KERNEL32.dll. __imp__GetModuleHandleA@4 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__ShowWindow@8 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__CreateWindowExA@48 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__GetClientRect@8 
+[import] 'obj\i386\resolve.obj' KERNEL32.dll. __imp__InterlockedExchange@8 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__UpdateWindow@4 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__LoadCursorA@8 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__GetClassNameA@12 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__RegisterClassA@4 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__GetMessageA@16 
+[import] 'obj\i386\resolve.obj' ADVAPI32.dll. __imp__RegCloseKey@4 
+[import] 'obj\i386\resolve.obj' KERNEL32.dll. __imp__GetModuleFileNameA@12 
+[import] 'obj\i386\resolve.obj' KERNEL32.dll. __imp__CompareStringA@24 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__GetSystemMenu@8 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__GetFocus@0 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__SetFocus@4 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__MoveWindow@24 
+[import] 'D:\VIP\Vpi\Lib\Win32\MSC\Init32.obj' KERNEL32.dll. _GetCommandLineA@0 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__GetDlgItem@8 
+[import] 'errputms.obj' USER32.dll. __imp__MessageBoxA@16 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__SendMessageA@16 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__DestroyWindow@4 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__MessageBeep@4 
+[import] 'osseekwr.obj' KERNEL32.dll. __imp__GetLastError@0 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__PostMessageA@16 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__TranslateMessage@4 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__GetWindowTextLengthA@4 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__DispatchMessageA@4 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__PeekMessageA@20 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__GetWindowTextA@12 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__SetWindowTextA@8 
+[import] 'D:\VIP\Vpi\Lib\Win32\MSC\Init32.obj' KERNEL32.dll. _GetModuleHandleA@4 
+[import] 'memheapn.obj' KERNEL32.dll. __imp__VirtualAlloc@16 
+[import] 'D:\VIP\Lib\Win32\MSC\Easywin.obj' USER32.dll. __imp__PostQuitMessage@4 
+[import] 'obj\i386\resolve.obj' KERNEL32.dll. __imp__GetVersion@0 
+[import] 'ostime1.obj' KERNEL32.dll. __imp__GetLocalTime@4 
+[import] 'obj\i386\resolve.obj' KERNEL32.dll. __imp__LoadLibraryA@4 
+[import] 'meminit.obj' KERNEL32.dll. __imp__GetSystemInfo@4 
+[import] 'obj\i386\resolve.obj' KERNEL32.dll. __imp__FreeLibrary@4 
+[import] 'osflock.obj' KERNEL32.dll. __imp__LockFile@20 
+[import] 'D:\VIP\Vpi\Lib\Win32\MSC\Init32.obj' KERNEL32.dll. _GetStartupInfoA@4 
+[import] 'osflock.obj' KERNEL32.dll. __imp__UnlockFile@20 
+[import] 'osthread.obj' KERNEL32.dll. __imp__InitializeCriticalSection@4 
+[import] 'chinit.obj' USER32.dll. __imp__IsCharLowerA@4 
+[import] 'chinit.obj' USER32.dll. __imp__IsCharUpperA@4 
+[import] 'obj\i386\resolve.obj' KERNEL32.dll. __imp__VirtualQuery@12 
+[import] 'osthread.obj' KERNEL32.dll. __imp__EnterCriticalSection@4 
+[import] 'osopen.obj' KERNEL32.dll. __imp__CreateFileA@28 
+[import] 'osseekwr.obj' KERNEL32.dll. __imp__WriteFile@20 
+[import] 'osclose.obj' KERNEL32.dll. __imp__CloseHandle@4 
+[import] 'osthread.obj' KERNEL32.dll. __imp__DeleteCriticalSection@4 
+[import] 'chinit.obj' USER32.dll. __imp__CharLowerA@4 
+[import] 'obj\i386\failure.obj' KERNEL32.dll. __imp__SetLastError@4 
+[import] 'osfmatch.obj' KERNEL32.dll. __imp__FindNextFileA@8 
+[import] 'osfmatch.obj' KERNEL32.dll. __imp__FindFirstFileA@8 
+[import] 'osfmatch.obj' KERNEL32.dll. __imp__FileTimeToLocalFileTime@8 
+[import] 'memheapn.obj' KERNEL32.dll. __imp__GlobalMemoryStatus@4 
+[import] 'osgenvs.obj' KERNEL32.dll. __imp__GetEnvironmentVariableA@12 
+[import] 'osfmatch.obj' KERNEL32.dll. __imp__FindClose@4 
+[import] 'osfmatch.obj' KERNEL32.dll. __imp__FileTimeToSystemTime@8 
+[import] 'memheapn.obj' KERNEL32.dll. __imp__VirtualFree@12 
+[import] 'osthread.obj' KERNEL32.dll. __imp__DuplicateHandle@28 
+[import] 'osthread.obj' KERNEL32.dll. __imp__GetCurrentProcess@0 
+[import] 'osgdir.obj' KERNEL32.dll. __imp__GetCurrentDirectoryA@8 
+[import] 'osthread.obj' KERNEL32.dll. __imp__GetCurrentThreadId@0 
+[import] 'runinit.obj' KERNEL32.dll. __imp__GetCommandLineA@0 
+[import] 'fnmuniqs.obj' KERNEL32.dll. __imp__GetCurrentProcessId@0 
+[import] 'osseekwr.obj' KERNEL32.dll. __imp__SetFilePointer@16 
+[import] 'osgdir.obj' KERNEL32.dll. __imp__SetCurrentDirectoryA@4 
+[import] 'chinit.obj' USER32.dll. __imp__CharUpperA@4 
+--- Total Names =  1372 --------
+--- Total Cnt   =  1372 --------
+--------------------------------
+

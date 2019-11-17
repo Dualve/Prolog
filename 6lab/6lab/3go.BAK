@@ -1,0 +1,20 @@
+domains
+	listr = real*
+
+predicates
+nondeterm	result
+nondeterm	solution(listr,listr) %(i,0)
+nondeterm	sum(listr,listr,real,real,integer) %(i,0,0,i,i)
+
+clauses
+	solution([],[]). %если список 0-й
+	solution(List,NewList) :- sum(List,ReturnList,ReturnSum,0.0,1), solution(ReturnList,NewList1), NewList=[ReturnSum|NewList1]. %если список не 0-й
+	  	
+	sum([Head|Tail],ReturnList,ReturnSum,Sum,Amount) :- Amount<4, Sum1=Sum+Head/3, Amount1=Amount+1, sum(Tail,ReturnList,ReturnSum,Sum1,Amount1). %будет происходить пока не просчитает 3 числа
+	sum(A,A,Sum,Sum,Amount) :- Amount>3. %если 3 раза прошло, вернет A и Sum как ReturnList и ReturnSum
+	sum([],[],Sum,Sum,_). %если были переданы пустые списки
+	
+	result :- write("Enter real list = "),readterm(listr,List),solution(List,List1),write("Start list = ",List),nl,write("End list = ",List1),nl.
+	
+goal 
+	result.
